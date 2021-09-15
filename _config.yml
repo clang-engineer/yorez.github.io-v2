@@ -1,16 +1,16 @@
 # Site settings
-title: 기계인간 John Grib
+title: zero blog
 url: "https://johngrib.github.io"
 baseurl: ""
 description: >
-    기계인간 블로그
+    zero 블로그
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+email: yorez@naver.com
+author: zero
+profile: 평벙한 사람
+twitter_username: 
+github_username: yorez
 comment-support: utterances
 
 # Build settings
