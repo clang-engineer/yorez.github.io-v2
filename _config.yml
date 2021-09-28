@@ -1,6 +1,6 @@
 # Site settings
 title: zero blog
-url: "https://johngrib.github.io"
+url: "https://yorez.github.io"
 baseurl: ""
 description: >
     zero 블로그
@@ -8,7 +8,7 @@ description: >
 # My information
 email: yorez@naver.com
 author: zero
-profile: 평벙한 사람
+profile: 평범한 사람
 twitter_username: 
 github_username: yorez
 comment-support: utterances
