@@ -7,7 +7,7 @@ comment : false
 regenerate: true
 ---
 
-## [[Diary]]
+## [[diary]]
 
 * [[/memo/2021]]
 
