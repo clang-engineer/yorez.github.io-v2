@@ -7,12 +7,6 @@ comment : false
 regenerate: true
 ---
 
-## wiki items
-
-* [[mathjax-latex]]
-
----
-
 ## [[Diary]]
 
 * [[/memo/2021]]
