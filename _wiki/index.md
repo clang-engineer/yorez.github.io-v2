@@ -13,6 +13,10 @@ regenerate: true
 
 ---
 
+## [[Diary]]
+
+* [[/memo/2021]]
+
 ## blog posts
 <div>
     <ul>
