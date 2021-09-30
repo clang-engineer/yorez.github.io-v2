@@ -7,6 +7,10 @@ comment : false
 regenerate: true
 ---
 
+## [[vim]]
+
+* [[/vim/plugin]]
+
 ## [[diary]]
 
 * [[/memo/2021]]
