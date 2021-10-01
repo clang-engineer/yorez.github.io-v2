@@ -11,7 +11,11 @@ regenerate: true
 
 * [[/vim/plugin]]
 
-## [[diary]]
+## [[etc]]
+
+* [[/etc/tableau-embedded]]
+
+## [[memo]]
 
 * [[/memo/2021]]
 

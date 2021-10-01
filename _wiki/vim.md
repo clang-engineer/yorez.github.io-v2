@@ -1,10 +1,10 @@
 ---
 layout  : category
-title   : diary
+title   : vim
 summary : 
-date    : 2021-09-29 12:17:04 +0900
-updated : 2021-10-01 08:36:10 +0900
-tags    : 
+date    : 2021-10-01 08:18:07 +0900
+updated : 2021-10-01 09:04:06 +0900
+tags    : vim
 toc     : true
 public  : true
 parent  : [[index]]
@@ -12,3 +12,4 @@ latex   : false
 ---
 * TOC
 {:toc}
+
