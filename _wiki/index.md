@@ -7,15 +7,15 @@ comment : false
 regenerate: true
 ---
 
-## [[vim]]
+## [[/vim/index]]
 
 * [[/vim/plugin]]
 
-## [[etc]]
+## [[/etc/index]]
 
 * [[/etc/tableau-embedded]]
 
-## [[memo]]
+## [[/memo/index]]
 
 * [[/memo/2021]]
 
