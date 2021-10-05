@@ -14,6 +14,7 @@ regenerate: true
 ## [[/etc/index]]
 
 * [[/etc/stack-edit]]
+* [[/etc/erdcloud]]
 * [[/etc/tableau-trusted-ticket]]
 
 ## [[/memo/index]]
