@@ -3,11 +3,11 @@ layout  : wiki
 title   : stack edit 소개
 summary : 
 date    : 2021-10-05 08:57:35 +0900
-updated : 2021-10-05 12:59:38 +0900
+updated : 2021-10-05 15:40:56 +0900
 tags    : stack edit
 toc     : true
 public  : true
-parent  : [[/etc/index]]
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : wiki
 title   : erd cloud
 summary : 
 date    : 2021-10-05 11:35:56 +0900
-updated : 2021-10-05 11:43:02 +0900
+updated : 2021-10-05 15:40:50 +0900
 tags    : erd cloud
 toc     : true
 public  : true
-parent  : [[/etc/index]]
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC

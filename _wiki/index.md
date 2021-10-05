@@ -7,23 +7,30 @@ comment : false
 regenerate: true
 ---
 
-## [[/vim/index]]
+## [[vim/index]]
 
-* [[/vim/plugin]]
+* [[vim/plugin]]
 
-## [[/etc/index]]
+## [[etc/index]]
 
-* [[/etc/stack-edit]]
-* [[/etc/erdcloud]]
-* [[/etc/tableau-trusted-ticket]]
-* [[/etc/tableau-issue]]
+* [[etc/stack-edit]]
+* [[etc/erdcloud]]
+* [[etc/tableau-trusted-ticket]]
+* [[etc/tableau-issue]]
 
-## [[/memo/index]]
+## [[memo/index]]
 
-* [[/memo/2021]]
+* [[memo/2021]]
 
-## [[/spring/index]]
-## [[/chrome/index]]
+
+
+
+
+
+
+## [[linux/index]]
+## [[spring/index]]
+## [[chrome/index]]
 
 ## blog posts
 <div>
