@@ -16,10 +16,14 @@ regenerate: true
 * [[/etc/stack-edit]]
 * [[/etc/erdcloud]]
 * [[/etc/tableau-trusted-ticket]]
+* [[/etc/tableau-issue]]
 
 ## [[/memo/index]]
 
 * [[/memo/2021]]
+
+## [[/spring/index]]
+## [[/chrome/index]]
 
 ## blog posts
 <div>
