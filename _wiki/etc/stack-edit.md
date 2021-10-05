@@ -3,7 +3,7 @@ layout  : wiki
 title   : stack edit 소개
 summary : 
 date    : 2021-10-05 08:57:35 +0900
-updated : 2021-10-05 11:44:30 +0900
+updated : 2021-10-05 12:59:38 +0900
 tags    : stack edit
 toc     : true
 public  : true
@@ -24,7 +24,6 @@ markdown을 web 에서 편리하게 편집하게 도와주는 site.
 
 편집과정에서 cheat sheet를 찾아보면서 markdown을 작성할 수 있다. 이 부분이 아직 markdown이 익숙치 않은 나에게 매우 편리하게 느껴졌다.
 
-> stack edit에서 제공하는 cheat sheet
 
 ````
 Headers
@@ -158,3 +157,5 @@ $$
 $$
 
 ````
+
+> stack edit에서 제공하는 cheat sheet
