@@ -13,8 +13,8 @@ regenerate: true
 
 ## [[/etc/index]]
 
-* [[/etc/tableau-embedded]]
 * [[/etc/stack-edit]]
+* [[/etc/tableau-trusted-ticket]]
 
 ## [[/memo/index]]
 
