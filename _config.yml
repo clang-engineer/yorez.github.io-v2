@@ -38,10 +38,10 @@ collections:
 
 # Comment Service
 disqus:
-  id: johngrib
-  shortname: johngrib
+  id: yorez
+  shortname: yorez.github.io
 utterances:
-  repo: johngrib/johngrib.github.io
+  repo: yorez/yorez.github.io
   issue-term: url
   label: Comment
   branch: master
