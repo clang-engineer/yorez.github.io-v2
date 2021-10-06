@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : computer metaphor
-summary : 쉽게 푸는 컴퓨터 구조
+summary : 쉽게 이해되는 컴퓨터 구조
 date    : 2021-10-06 11:48:14 +0900
-updated : 2021-10-06 12:21:02 +0900
+updated : 2021-10-06 12:36:53 +0900
 tag     : computer science metaphor
 toc     : true
 public  : true
@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
-# 쉽게 설명하는 컴퓨터 기본 구조
+# 쉽게 이해되는 컴퓨터 기본 구조
 
 한 때 인터넷에 화제가 되었던 컴퓨터를 노예에 비유해서 설명한 글.
 
