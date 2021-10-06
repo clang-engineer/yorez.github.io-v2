@@ -3,11 +3,11 @@ layout  : wiki
 title   : computer metaphor
 summary : 쉽게 푸는 컴퓨터 구조
 date    : 2021-10-06 11:48:14 +0900
-updated : 2021-10-06 12:07:00 +0900
+updated : 2021-10-06 12:21:02 +0900
 tag     : computer science metaphor
 toc     : true
 public  : true
-parent  : [[computer-science/computer-metaphor]]
+parent  : [[computer-science/index]]
 latex   : false
 ---
 * TOC

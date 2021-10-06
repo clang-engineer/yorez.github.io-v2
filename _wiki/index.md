@@ -23,7 +23,9 @@ regenerate: true
 * [[memo/2021]]
 
 
+## [[computer-science/index]]
 
+* [[computer-science/computer-metaphor]]
 
 
 

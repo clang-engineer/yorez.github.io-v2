@@ -16,6 +16,10 @@
   "size": 1
  },
  {
+  "name": "computer",
+  "size": 1
+ },
+ {
   "name": "DI",
   "size": 1
  },
@@ -68,6 +72,10 @@
   "size": 1
  },
  {
+  "name": "metaphor",
+  "size": 1
+ },
+ {
   "name": "mockito",
   "size": 1
  },
@@ -77,6 +85,10 @@
  },
  {
   "name": "oop",
+  "size": 1
+ },
+ {
+  "name": "science",
   "size": 1
  },
  {
