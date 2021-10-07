@@ -28,9 +28,11 @@ regenerate: true
 * [[computer-science/computer-metaphor]]
 
 
-
-
 ## [[linux/index]]
+
+* [[linux/command]]
+
+
 ## [[spring/index]]
 ## [[chrome/index]]
 

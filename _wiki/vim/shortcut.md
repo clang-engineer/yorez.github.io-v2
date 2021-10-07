@@ -3,7 +3,7 @@ layout  : wiki
 title   : shorcut
 summary : 
 date    : 2021-10-06 13:44:14 +0900
-updated : 2021-10-06 17:20:37 +0900
+updated : 2021-10-07 10:47:37 +0900
 tags    : 
 toc     : true
 public  : private
