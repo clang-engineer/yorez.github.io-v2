@@ -3,11 +3,11 @@ layout  : wiki
 title   : regex 
 summary : 
 date    : 2021-10-08 10:01:58 +0900
-updated : 2021-10-08 13:48:38 +0900
+updated : 2021-10-08 13:49:56 +0900
 tag     : regex
 toc     : true
 public  : true
-parent  : 
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC
