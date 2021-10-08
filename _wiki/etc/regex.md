@@ -3,7 +3,7 @@ layout  : wiki
 title   : regex 
 summary : 
 date    : 2021-10-08 10:01:58 +0900
-updated : 2021-10-08 13:40:46 +0900
+updated : 2021-10-08 13:48:38 +0900
 tag     : regex
 toc     : true
 public  : true
@@ -14,8 +14,6 @@ latex   : false
 {:toc}
 
 # 정규표현식 정리
-
-> https://regexr.com/
 
 ## Character classes
 ### .
@@ -36,7 +34,7 @@ latex   : false
 ### [a-g]
 - a-g 중에 포함된 문자
 
---- 
+
 ## anchors
 ### ^abc$
 - 문장의 시작 또는 끝
@@ -44,7 +42,7 @@ latex   : false
 ### \b \B
 - 단어의 끝 또는 시작
 
----
+
 ## escaped characters
 ### \. \* \\
 - 특수문자
@@ -52,7 +50,7 @@ latex   : false
 ### \t \n \r
 - 탭, 개행문자
 
----
+
 ## Groups & Lookaround
 ### (abc)
 - 문자를 그룹화하고 패턴을 캡처
@@ -70,7 +68,7 @@ latex   : false
 - 그룹 문자를 포함하지 않는 문자열을 찾으나 해당영역을 선택하지 않음
 
 
----
+
 ## Quantifiers & Alternation
 ### a* a+ a?
 - 0 또는 이상, 1 또는 이상, 0 또는 1  
@@ -86,3 +84,7 @@ latex   : false
 
 ### ab | cd
 - ab이거나 cd
+
+## 참고문헌
+> https://regexr.com/
+
