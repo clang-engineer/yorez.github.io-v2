@@ -16,6 +16,10 @@
   "size": 1
  },
  {
+  "name": "command",
+  "size": 1
+ },
+ {
   "name": "computer",
   "size": 1
  },
@@ -65,6 +69,10 @@
  },
  {
   "name": "latex",
+  "size": 1
+ },
+ {
+  "name": "linux",
   "size": 1
  },
  {

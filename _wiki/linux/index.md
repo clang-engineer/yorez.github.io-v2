@@ -1,9 +1,9 @@
 ---
-layout  : wiki
+layout  : category
 title   : linux
 summary : 
 date    : 2021-10-05 15:31:25 +0900
-updated : 2021-10-05 15:31:47 +0900
+updated : 2021-10-08 09:01:13 +0900
 tags    : 
 toc     : true
 public  : true
