@@ -17,6 +17,7 @@ regenerate: true
 * [[etc/erdcloud]]
 * [[etc/tableau-trusted-ticket]]
 * [[etc/tableau-issue]]
+* [[etc/regex]]
 
 ## [[memo/index]]
 
