@@ -3,11 +3,11 @@ layout  : wiki
 title   : tableau issue
 summary : 
 date    : 2021-10-01 10:19:01 +0900
-updated : 2021-10-05 12:58:16 +0900
+updated : 2021-10-13 16:55:11 +0900
 tags    : tableau issue
 toc     : true
 public  : true
-parent  : [[etc/index]]
+parent  : [[tableau/index]]
 latex   : false
 ---
 * TOC

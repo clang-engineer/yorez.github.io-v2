@@ -1,9 +1,9 @@
 ---
 layout  : category
-title   : linux
+title   : tableau
 summary : 
-date    : 2021-10-05 15:31:25 +0900
-updated : 2021-10-13 16:59:28 +0900
+date    : 2021-10-13 16:52:27 +0900
+updated : 2021-10-13 17:00:18 +0900
 tags    : 
 toc     : true
 public  : true
@@ -13,4 +13,4 @@ latex   : false
 * TOC
 {:toc}
 
-# linux 관련 주제
+# 태블로 관련 주제

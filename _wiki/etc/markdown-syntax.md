@@ -3,11 +3,11 @@ layout  : wiki
 title   : 유용한 마크다운 문법
 summary : 
 date    : 2021-10-13 15:22:37 +0900
-updated : 2021-10-13 16:46:58 +0900
+updated : 2021-10-13 16:50:14 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC

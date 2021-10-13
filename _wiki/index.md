@@ -12,29 +12,29 @@ regenerate: true
 * [[vim/plugin]]
 * [[vim/neovim]]
 
+## [[linux/index]]
+
+* [[linux/command]]
+* [[linux/shell-script]]
+
+## [[computer-science/index]]
+
+* [[computer-science/computer-metaphor]]
+
 ## [[etc/index]]
 
 * [[etc/stack-edit]]
 * [[etc/markdown-syntax]]
 * [[etc/erdcloud]]
-* [[etc/tableau-trusted-ticket]]
-* [[etc/tableau-issue]]
 * [[etc/regex]]
 
 ## [[memo/index]]
 
 * [[memo/2021]]
 
-
-## [[computer-science/index]]
-
-* [[computer-science/computer-metaphor]]
-
-
-## [[linux/index]]
-
-* [[linux/command]]
-* [[linux/shell-script]]
+## [[tableau/index]]
+* [[tableau/tableau-trusted-ticket]]
+* [[tableau/tableau-issue]]
 
 
 ## [[spring/index]]
@@ -54,4 +54,3 @@ regenerate: true
 {% endfor %}
     </ul>
 </div>
-

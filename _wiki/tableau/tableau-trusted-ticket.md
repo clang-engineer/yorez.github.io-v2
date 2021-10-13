@@ -3,11 +3,11 @@ layout  : wiki
 title   : tableau trusted ticket
 summary : 
 date    : 2021-10-05 10:56:05 +0900
-updated : 2021-10-05 15:41:03 +0900
+updated : 2021-10-13 16:55:17 +0900
 tags    : tableau trusted ticket
 toc     : true
 public  : true
-parent  : [[etc/index]]
+parent  : [[tableau/index]]
 latex   : false
 ---
 * TOC
