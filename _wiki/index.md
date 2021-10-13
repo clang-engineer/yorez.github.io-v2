@@ -15,6 +15,7 @@ regenerate: true
 ## [[etc/index]]
 
 * [[etc/stack-edit]]
+* [[etc/markdown-syntax]]
 * [[etc/erdcloud]]
 * [[etc/tableau-trusted-ticket]]
 * [[etc/tableau-issue]]
@@ -33,6 +34,7 @@ regenerate: true
 ## [[linux/index]]
 
 * [[linux/command]]
+* [[linux/shell-script]]
 
 
 ## [[spring/index]]

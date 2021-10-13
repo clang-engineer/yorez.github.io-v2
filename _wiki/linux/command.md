@@ -3,7 +3,7 @@ layout  : wiki
 title   : linux command
 summary : 
 date    : 2021-10-07 10:31:41 +0900
-updated : 2021-10-07 10:48:21 +0900
+updated : 2021-10-13 15:16:01 +0900
 tag     : linux command
 toc     : true
 public  : true
@@ -36,3 +36,26 @@ latex   : false
 
 ### background 작업을 중지시키기
 - fg %n을 통해서 foreground로 가져온 후 ctrl + z로 중지
+
+---
+
+## 명령어 실행
+### ;
+- 성공여부와 상관없이 다음 명령어 실행
+```
+mkdir test; cd test
+```
+
+### &&
+- 성공한 경우에 다음 명령어 실행
+```
+mkdir test && mkdir test && touch abc
+```
+1. mkdir test(실패) - 이름 중복
+2. touch abc(성공)
+```
+// test라는 폴더가 같은 폴더에 존재한다는 가정
+mkdir test; touch abc
+```
+1. mkdir test(실패) - 이름 중복
+2. touch abc(성공)
