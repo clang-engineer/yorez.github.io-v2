@@ -88,6 +88,10 @@
   "size": 1
  },
  {
+  "name": "neovim",
+  "size": 1
+ },
+ {
   "name": "node-js",
   "size": 1
  },

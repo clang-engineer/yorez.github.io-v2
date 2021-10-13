@@ -3,7 +3,7 @@ layout  : wiki
 title   : git 유용한 명령어 
 summary : 
 date    : 2021-10-12 09:28:52 +0900
-updated : 2021-10-12 12:54:41 +0900
+updated : 2021-10-12 16:27:32 +0900
 tags    : 
 toc     : true
 public  : true
@@ -28,6 +28,8 @@ latex   : false
 ### git diff {branch1} {branch2}
 - branch1 vs branch2 비교
 
+--- 
+
 ## git branch
 ### git branch -r
 - 원격 브랜치 목록 보기
@@ -38,6 +40,8 @@ latex   : false
 
 ### git chechout -b {local branch name} {remote branch name}
 - 원격 저장소와 이름 다르게 하고 싶을 때
+
+---
 
 ## git reset <옵션> <commit>
 ### git reset --mixed

@@ -10,6 +10,7 @@ regenerate: true
 ## [[vim/index]]
 
 * [[vim/plugin]]
+* [[vim/neovim]]
 
 ## [[etc/index]]
 
