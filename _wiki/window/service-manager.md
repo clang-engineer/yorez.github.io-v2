@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 윈도우 서비스 관련 이슈
+title   : 윈도우 서비스 등록 및 관리 방법
 summary : 
 date    : 2021-10-14 10:52:35 +0900
-updated : 2021-10-14 12:57:16 +0900
+updated : 2021-10-14 14:30:31 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,8 +12,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-# 윈도우 서비스 관련 이슈
 
 ## sc로 서비스 관리 
 cmd에서 sc커맨드를 통한 서비스 관리가 가능하다
@@ -51,5 +49,5 @@ java -jar startup.jar
 
 ![nssm image](https://user-images.githubusercontent.com/39648594/137248149-c554b7b1-32b5-445b-a483-087abcdb850d.png) 
 
-gui 가 나타나고 **application tab -> path에서 실형파일 경로 설정 -> install service** 순으로 진행하면 
+gui 가 나타나고 **application tab -> path에서 실행파일 경로 설정 -> install service** 순으로 진행하면 
 서비스가 정상적으로 등록된 걸 확인할 수 있다.

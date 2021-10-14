@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : regex 
+title   : 자주 쓰이는 졍규표현식 문법 정리 
 summary : 
 date    : 2021-10-08 10:01:58 +0900
-updated : 2021-10-08 13:49:56 +0900
+updated : 2021-10-14 14:02:58 +0900
 tag     : regex
 toc     : true
 public  : true
@@ -12,8 +12,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-# 정규표현식 정리
 
 ## Character classes
 ### .
@@ -85,6 +83,5 @@ latex   : false
 ### ab | cd
 - ab이거나 cd
 
-## 참고문헌
 > https://regexr.com/
 

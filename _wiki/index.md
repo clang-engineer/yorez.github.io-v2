@@ -10,12 +10,22 @@ regenerate: true
 ## [[vim/index]]
 
 * [[vim/plugin]]
-* [[vim/neovim]]
+* [[vim/neovim-swap-error]]
 
 ## [[linux/index]]
 
+* [[linux/jobs]]
 * [[linux/command]]
+* [[linux/nohub]]
 * [[linux/shell-script]]
+
+## [[git/index]]
+* [[git/diff]]
+* [[git/branch]]
+* [[git/reset]]
+
+
+
 
 ## [[computer-science/index]]
 
@@ -34,7 +44,7 @@ regenerate: true
 
 ## [[window/index]]
 
-* [[window/service]]
+* [[window/service-manager]]
 
 ## [[tableau/index]]
 * [[tableau/tableau-trusted-ticket]]
