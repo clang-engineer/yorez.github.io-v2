@@ -32,6 +32,10 @@ regenerate: true
 
 * [[memo/2021]]
 
+## [[window/index]]
+
+* [[window/service]]
+
 ## [[tableau/index]]
 * [[tableau/tableau-trusted-ticket]]
 * [[tableau/tableau-issue]]
