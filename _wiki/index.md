@@ -36,13 +36,6 @@ regenerate: true
 * [[etc/erdcloud]]
 * [[etc/regex]]
 
-## [[memo/index]]
-
-* [[memo/2021]]
-
-## [[schedule/index]]
-* [[schedule/2021-10]]
-
 ## [[window/index]]
 
 * [[window/service-manager]]
