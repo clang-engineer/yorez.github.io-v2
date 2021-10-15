@@ -11,6 +11,7 @@ regenerate: true
 
 * [[vim/plugin]]
 * [[vim/neovim-swap-error]]
+* [[vim/shortcut]]
 
 ## [[linux/index]]
 
