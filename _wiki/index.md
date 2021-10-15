@@ -25,9 +25,6 @@ regenerate: true
 * [[git/branch]]
 * [[git/reset]]
 
-
-
-
 ## [[computer-science/index]]
 
 * [[computer-science/computer-metaphor]]
@@ -42,6 +39,9 @@ regenerate: true
 ## [[memo/index]]
 
 * [[memo/2021]]
+
+## [[schedule/index]]
+* [[schedule/2021-10]]
 
 ## [[window/index]]
 
