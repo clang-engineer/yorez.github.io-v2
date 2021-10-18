@@ -37,6 +37,7 @@ regenerate: true
 * [[etc/erdcloud]]
 * [[etc/regex]]
 * [[etc/nikto]]
+* [[etc/hhkb-hybrid]]
 
 ## [[window/index]]
 
