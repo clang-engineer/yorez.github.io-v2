@@ -35,6 +35,7 @@ regenerate: true
 * [[etc/markdown-syntax]]
 * [[etc/erdcloud]]
 * [[etc/regex]]
+* [[etc/nikto]]
 
 ## [[window/index]]
 
