@@ -24,6 +24,7 @@ regenerate: true
 * [[git/diff]]
 * [[git/branch]]
 * [[git/reset]]
+* [[git/multi-account]]
 
 ## [[computer-science/index]]
 
