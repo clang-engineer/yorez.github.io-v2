@@ -38,6 +38,7 @@ regenerate: true
 * [[etc/regex]]
 * [[etc/nikto]]
 * [[etc/hhkb-hybrid]]
+* [[etc/jenkins]] 
 
 ## [[window/index]]
 
