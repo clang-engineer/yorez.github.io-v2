@@ -26,6 +26,8 @@ regenerate: true
 * [[git/reset]]
 * [[git/multi-account]]
 * [[git/stash]]
+* [[git/clean]]
+* [[git/etc]]
 
 ## [[computer-science/index]]
 
