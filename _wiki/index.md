@@ -28,6 +28,7 @@ regenerate: true
 * [[git/stash]]
 * [[git/clean]]
 * [[git/etc]]
+* [[git/revert]]
 
 ## [[computer-science/index]]
 

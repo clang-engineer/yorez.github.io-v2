@@ -1,3 +1,18 @@
+---
+layout  : wiki
+title   : git revert
+summary : 
+date    : 2021-10-23 17:35:34 +0900
+updated : 2021-10-23 17:36:14 +0900
+tags    : 
+toc     : true
+public  : true
+parent  : [[git/index]]
+latex   : false
+---
+* TOC
+{:toc}
+
 https://www.lainyzine.com/ko/article/git-revert-reverting-commit-in-git-repository/
 
 ## 되돌리고 커밋 직접 작성하기
