@@ -3,7 +3,7 @@ layout  : wiki
 title   : 윈도우 서비스 등록 및 관리 방법
 summary : 
 date    : 2021-10-14 10:52:35 +0900
-updated : 2021-10-14 14:30:31 +0900
+updated : 2021-11-03 08:32:53 +0900
 tags    : 
 toc     : true
 public  : true
@@ -42,6 +42,11 @@ cmd에서 sc커맨드를 통한 서비스 관리가 가능하다
 cd /D "c:\work"
 java -jar startup.jar
 ```
+```
+@ECHO OFF
+call "<java 절대경로>" -jar "<jar 절대경로>"
+```
+
 위와 같은 배치 파일 생성후
 1. cmd 열기
 2. 다운 받은 nssm.exe가 존재하는 폴더로 이동
