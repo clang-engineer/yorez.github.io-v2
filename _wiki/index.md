@@ -29,6 +29,7 @@ regenerate: true
 * [[git/clean]]
 * [[git/etc]]
 * [[git/revert]]
+* [[git/remove-remote]]
 
 ## [[computer-science/index]]
 
