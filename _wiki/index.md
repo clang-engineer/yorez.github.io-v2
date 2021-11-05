@@ -19,6 +19,7 @@ regenerate: true
 * [[linux/command]]
 * [[linux/nohub]]
 * [[linux/shell-script]]
+* [[linux/scp]]
 
 ## [[git/index]]
 * [[git/diff]]
