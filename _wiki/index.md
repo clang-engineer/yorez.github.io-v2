@@ -44,6 +44,7 @@ regenerate: true
 * [[etc/nikto]]
 * [[etc/hhkb-hybrid]]
 * [[etc/jenkins]] 
+* [[etc/private-certificate]]
 
 ## [[window/index]]
 
