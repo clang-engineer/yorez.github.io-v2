@@ -31,6 +31,9 @@ regenerate: true
 * [[git/etc]]
 * [[git/revert]]
 
+## [[algorithm/index]]
+* [[algorithm/greedy]]
+
 ## [[computer-science/index]]
 
 * [[computer-science/computer-metaphor]]
