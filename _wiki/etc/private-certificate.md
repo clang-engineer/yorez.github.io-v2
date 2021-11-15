@@ -34,5 +34,5 @@ openssl rsa -in private.key -out private_nopass.key
 
 ## 4단계 - 사설 인증서 생성
 ```sh
-openssl x509 -req -days 3650 -in private.csr -signkey private_nopass.key -out public.crt
+openssl x509 -req -days 3650 -in public.csr -signkey private.key -out public.crt
 ```
