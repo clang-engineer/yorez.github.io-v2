@@ -36,3 +36,13 @@ openssl rsa -in private.key -out private_nopass.key
 ```sh
 openssl x509 -req -days 3650 -in public.csr -signkey private.key -out public.crt
 ```
+
+## 인증서 정보 확인
+```sh
+openssl x509 -in public.crt -text -noout
+```
+
+## 개인키 패스워드 확인
+```sh
+openssl rsa -check -in private.key
+```
