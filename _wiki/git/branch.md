@@ -3,7 +3,7 @@ layout  : wiki
 title   : branch  명령어 메모
 summary : 
 date    : 2021-10-14 14:58:44 +0900
-updated : 2021-11-03 12:25:42 +0900
+updated : 2021-11-18 08:59:20 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,6 +14,24 @@ latex   : false
 {:toc}
 
 ## git branch
+### Synopsis
+```sh
+git branch [--color[=<when>] | --no-color] [--show-current]
+        [-v [--abbrev=<n> | --no-abbrev]]
+        [--column[=<options>] | --no-column] [--sort=<key>]
+        [--merged [<commit>]] [--no-merged [<commit>]]
+        [--contains [<commit>]] [--no-contains [<commit>]]
+        [--points-at <object>] [--format=<format>]
+        [(-r | --remotes) | (-a | --all)]
+        [--list] [<pattern>...]
+git branch [--track | --no-track] [-f] <branchname> [<start-point>]
+git branch (--set-upstream-to=<upstream> | -u <upstream>) [<branchname>]
+git branch --unset-upstream [<branchname>]
+git branch (-m | -M) [<oldbranch>] <newbranch>
+git branch (-c | -C) [<oldbranch>] <newbranch>
+git branch (-d | -D) [-r] <branchname>...
+git branch --edit-description [<branchname>]
+```
 ### git branch -r
 - 원격 브랜치 목록 보기
  

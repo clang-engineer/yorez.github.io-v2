@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 
+title   : git stash 정리
 summary : 
 date    : 2021-10-21 12:47:09 +0900
-updated : 2021-10-21 12:47:29 +0900
+updated : 2021-11-18 09:00:07 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,6 +14,8 @@ latex   : false
 {:toc}
 
 
+### Synopsis
+```sh
 git stash list [<log-options>]
 git stash show [-u|--include-untracked|--only-untracked] [<diff-options>] [<stash>]
 git stash drop [-q|--quiet] [<stash>]
@@ -26,3 +28,4 @@ git stash [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]
 git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
+```
