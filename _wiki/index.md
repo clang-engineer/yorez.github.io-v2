@@ -60,6 +60,7 @@ regenerate: true
 
 ## [[spring/index]]
 * [[spring/occupy-multiple-port]]
+* [[spring/mybatis-multiple-datasource]]
 ## [[chrome/index]]
 
 ## blog posts
