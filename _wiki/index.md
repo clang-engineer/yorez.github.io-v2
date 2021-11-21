@@ -62,6 +62,7 @@ regenerate: true
 * [[spring/occupy-multiple-port]]
 * [[spring/mybatis-multiple-datasource]]
 * [[spring/excel-read-util]]
+* [[spring/mybatis-map-keyvalue-dynamically]]
   
 ## [[chrome/index]]
 
