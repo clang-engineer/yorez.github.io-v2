@@ -3,11 +3,11 @@ layout  : wiki
 title   : git 관련 추가 팁 
 summary : 
 date    : 2021-10-21 16:10:42 +0900
-updated : 2021-11-15 09:01:11 +0900
+updated : 2021-11-21 22:04:08 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[git/index]]
 latex   : false
 ---
 * TOC

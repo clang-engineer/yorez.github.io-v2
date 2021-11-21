@@ -3,11 +3,11 @@ layout  : wiki
 title   : 유용한 vim shortcut 정리 
 summary : 
 date    : 2021-10-06 13:44:14 +0900
-updated : 2021-10-15 11:23:41 +0900
+updated : 2021-11-21 22:01:01 +0900
 tags    : 
 toc     : true
-public  : private
-parent  : 
+public  : true
+parent  : [[vim/index]]
 latex   : false
 ---
 * TOC

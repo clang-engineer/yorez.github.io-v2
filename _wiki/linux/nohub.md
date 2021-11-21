@@ -3,11 +3,11 @@ layout  : wiki
 title   : nohub - 프로세스의 연속
 summary : 
 date    : 2021-10-14 13:54:41 +0900
-updated : 2021-10-14 14:13:03 +0900
+updated : 2021-11-21 22:01:41 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[linux/index]]
 latex   : false
 ---
 * TOC

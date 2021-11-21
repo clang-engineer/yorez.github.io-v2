@@ -3,11 +3,11 @@ layout  : wiki
 title   : jenkins
 summary : 
 date    : 2021-10-19 15:23:23 +0900
-updated : 2021-10-19 15:27:16 +0900
+updated : 2021-11-21 22:04:50 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC

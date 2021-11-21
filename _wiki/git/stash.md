@@ -3,11 +3,11 @@ layout  : wiki
 title   : git stash 정리
 summary : 
 date    : 2021-10-21 12:47:09 +0900
-updated : 2021-11-18 09:00:07 +0900
+updated : 2021-11-21 22:03:50 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[git/index]]
 latex   : false
 ---
 * TOC

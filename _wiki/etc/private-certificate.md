@@ -3,11 +3,11 @@ layout  : wiki
 title   : 사설 인증서 생성하기
 summary : 
 date    : 2021-11-08 14:24:46 +0900
-updated : 2021-11-08 16:44:31 +0900
+updated : 2021-11-21 22:05:01 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC

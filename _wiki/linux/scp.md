@@ -3,11 +3,11 @@ layout  : wiki
 title   : ssh로 파일 전송하기
 summary : 
 date    : 2021-11-05 10:36:15 +0900
-updated : 2021-11-05 11:09:49 +0900
+updated : 2021-11-21 22:03:06 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[linux/index]]
 latex   : false
 ---
 * TOC
