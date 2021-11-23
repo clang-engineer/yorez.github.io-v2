@@ -48,6 +48,7 @@ regenerate: true
 * [[etc/hhkb-hybrid]]
 * [[etc/jenkins]] 
 * [[etc/private-certificate]]
+* [[etc/postgresql-sequence]]
 
 ## [[window/index]]
 
