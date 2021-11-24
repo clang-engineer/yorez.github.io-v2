@@ -49,6 +49,7 @@ regenerate: true
 * [[etc/jenkins]] 
 * [[etc/private-certificate]]
 * [[etc/postgresql-sequence]]
+* [[etc/git-study-site]]
 
 ## [[window/index]]
 
