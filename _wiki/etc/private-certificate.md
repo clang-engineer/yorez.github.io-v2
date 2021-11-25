@@ -3,7 +3,7 @@ layout  : wiki
 title   : 사설 인증서 생성하기
 summary : 
 date    : 2021-11-08 14:24:46 +0900
-updated : 2021-11-21 22:05:01 +0900
+updated : 2021-11-25 15:16:14 +0900
 tags    : 
 toc     : true
 public  : true
@@ -45,4 +45,5 @@ openssl x509 -in public.crt -text -noout
 ## 개인키 패스워드 확인
 ```sh
 openssl rsa -check -in private.key
+openssl pkcs12 -in private.pfx -noout
 ```
