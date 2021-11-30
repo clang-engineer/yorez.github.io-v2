@@ -68,3 +68,6 @@ regenerate: true
 * [[spring/mybatis-use-sequence]]
   
 ## [[chrome/index]]
+
+## [[cheat-sheet/index]]
+* [[cheat-sheet/tmux]]
