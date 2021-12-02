@@ -66,6 +66,9 @@ regenerate: true
 * [[spring/excel-read-util]]
 * [[spring/mybatis-map-keyvalue-dynamically]]
 * [[spring/mybatis-use-sequence]]
+
+## [[javascript/index]]
+* [[javascript/axios-collection-set-send]]
   
 ## [[chrome/index]]
 
