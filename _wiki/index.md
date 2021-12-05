@@ -67,7 +67,7 @@ regenerate: true
 * [[spring/mybatis-map-keyvalue-dynamically]]
 * [[spring/mybatis-use-sequence]]
 * [[spring/collction-map-tip]]
-* [[spring/merge-two-collection-map]]
+* [[spring/list-to-map-transform]]
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
