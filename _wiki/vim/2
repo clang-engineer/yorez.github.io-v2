@@ -3,7 +3,7 @@ layout  : wiki
 title   : plugin 정리
 summary : 
 date    : 2021-10-01 08:22:16 +0900
-updated : 2021-12-07 12:59:56 +0900
+updated : 2021-12-07 12:59:13 +0900
 tags    : vim plugin
 toc     : true
 public  : true
@@ -59,7 +59,6 @@ latex   : false
 - 짝으로 따옴표, 괄호, 중괄호 삽입, 삽제
 
 ### close tag
-- html 태그 닫기
 
 ### vim gutentags
 
