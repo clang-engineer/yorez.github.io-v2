@@ -3,7 +3,7 @@ layout  : wiki
 title   : plugin 정리
 summary : 
 date    : 2021-10-01 08:22:16 +0900
-updated : 2021-11-24 17:51:22 +0900
+updated : 2021-12-07 12:59:56 +0900
 tags    : vim plugin
 toc     : true
 public  : true
@@ -16,9 +16,6 @@ latex   : false
 # [Vim Awesome](https://vimawesome.com/) 을 참조해서 유용한 플러그인 정리
 
 ## Language
-### Syntatic
-- 문법오류를 체크해주는 플러그인
-
 ### The NERD Commenter
 - 주석을 편리하게 돕는 플러그인
  
@@ -41,17 +38,29 @@ latex   : false
 - vim용 emmet플러그인
 
 ### ale
-- 문법 오류를 체크해주고 교정해주는 플러그인
-
+- 문법 체크해주고 교정해주는 플러그인
 
 ## Completion
 ### youcompleteme
+- 코드 자동완성 플러그인
+ 
 ### vim snippets
+- 자주 사용하는 구문을 등록해놓을 수 있는 플러그인
+
 ### vim endwise
+- 종료 태그를 자동생성
+
 ### delimitmate
+- 따옴표, 괄호, 중괄호 등을 자동으로 닫아줌
+
 ### taglist
+
 ### auto pairs
+- 짝으로 따옴표, 괄호, 중괄호 삽입, 삽제
+
 ### close tag
+- html 태그 닫기
+
 ### vim gutentags
 
 
