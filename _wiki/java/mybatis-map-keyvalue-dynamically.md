@@ -3,11 +3,11 @@ layout  : wiki
 title   : mybatis key-value map 객체 동적으로 사용하기
 summary : 
 date    : 2021-11-21 21:45:32 +0900
-updated : 2021-11-21 21:52:11 +0900
+updated : 2021-12-08 10:22:34 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[spring/index]]
+parent  : [[java/index]]
 latex   : false
 ---
 * TOC

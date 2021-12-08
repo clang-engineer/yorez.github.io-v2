@@ -3,11 +3,11 @@ layout  : wiki
 title   : http -> https로 보내기, 복수 포트 점령하기
 summary : 
 date    : 2021-11-11 08:30:41 +0900
-updated : 2021-11-11 08:37:19 +0900
+updated : 2021-12-08 10:23:00 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[spring/index]]
+parent  : [[java/index]]
 latex   : false
 ---
 * TOC

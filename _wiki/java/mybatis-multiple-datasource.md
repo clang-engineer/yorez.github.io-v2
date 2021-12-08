@@ -3,11 +3,11 @@ layout  : wiki
 title   : Mybatis 복수 db 이용
 summary : 
 date    : 2021-11-21 21:18:16 +0900
-updated : 2021-11-21 21:52:29 +0900
+updated : 2021-12-08 10:22:40 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[spring/index]]
+parent  : [[java/index]]
 latex   : false
 ---
 * TOC

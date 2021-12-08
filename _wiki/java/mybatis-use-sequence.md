@@ -3,11 +3,11 @@ layout  : wiki
 title   : mybatis 데이터 삽입시 시퀀스 다음값 얻기
 summary : 
 date    : 2021-11-22 09:53:55 +0900
-updated : 2021-11-22 10:38:49 +0900
+updated : 2021-12-08 10:22:51 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[spring/index]]
+parent  : [[java/index]]
 latex   : false
 ---
 * TOC

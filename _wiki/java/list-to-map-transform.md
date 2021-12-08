@@ -3,11 +3,11 @@ layout  : wiki
 title   : collection list to map 변환
 summary : 
 date    : 2021-12-05 12:01:53 +0900
-updated : 2021-12-05 12:22:33 +0900
+updated : 2021-12-08 10:22:24 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[spring/index]]
+parent  : [[java/index]]
 latex   : false
 ---
 * TOC

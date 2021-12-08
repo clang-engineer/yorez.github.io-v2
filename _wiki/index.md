@@ -61,14 +61,14 @@ regenerate: true
 * [[tableau/tableau-issue]]
 
 
-## [[spring/index]]
-* [[spring/occupy-multiple-port]]
-* [[spring/mybatis-multiple-datasource]]
-* [[spring/excel-read-util]]
-* [[spring/mybatis-map-keyvalue-dynamically]]
-* [[spring/mybatis-use-sequence]]
-* [[spring/collction-map-tip]]
-* [[spring/list-to-map-transform]]
+## [[java/index]]
+* [[java/occupy-multiple-port]]
+* [[java/mybatis-multiple-datasource]]
+* [[java/excel-read-util]]
+* [[java/mybatis-map-keyvalue-dynamically]]
+* [[java/mybatis-use-sequence]]
+* [[java/collction-map-tip]]
+* [[java/list-to-map-transform]]
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
