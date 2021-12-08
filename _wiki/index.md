@@ -69,6 +69,7 @@ regenerate: true
 * [[java/mybatis-use-sequence]]
 * [[java/collction-map-tip]]
 * [[java/list-to-map-transform]]
+* [[java/spring-boot-boodha-banner]]
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
