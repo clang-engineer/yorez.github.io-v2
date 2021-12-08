@@ -3,7 +3,7 @@ layout  : wiki
 title   : plugin 정리
 summary : 
 date    : 2021-10-01 08:22:16 +0900
-updated : 2021-12-07 12:59:56 +0900
+updated : 2021-12-08 18:00:10 +0900
 tags    : vim plugin
 toc     : true
 public  : true
@@ -62,14 +62,51 @@ latex   : false
 - html 태그 닫기
 
 ### vim gutentags
-
-
-
-
-
-## Completion
+- vim으로 코드를 편집하는 동안 백그라운드에서 자동으로 tags 파일을 갱신
 
 ## Code display
+### Surround vim
+- 특정 영역을 원하는 문자로 감쌈.
+- cs: 변경
+- ys: 추가
+- ds: 삭제
+
+```
+"Hello world!" // 이 문자열을 대상으로 테스트
+
+//cs"'
+'Hello world!'
+
+//cs'<q>
+<q>Hello world!</q>
+
+//cst"
+"Hello world!"
+
+//ds"
+Hello world!
+
+//ysiw]
+[Hello] world!
+
+//cs]{
+{ Hello } world!
+
+//yssb or yss).
+({ Hello } world!)
+
+ds{ds)
+Hello world!
+
+//ysiw<em>
+<em>Hello</em> world!
+
+//<V> + S + <p class="important">.
+<p class="important">
+  <em>Hello</em> world!
+</p>
+```
+
 
 ## Integration
 
