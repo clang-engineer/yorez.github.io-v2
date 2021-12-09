@@ -13,6 +13,7 @@ regenerate: true
 * [[vim/neovim-swap-error]]
 * [[vim/shortcut]]
 * [[vim/change-encoding]]
+* [[vim/cheat-sheet]]
 
 ## [[linux/index]]
 
