@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2021-12-08 11:24:50 +0900
-updated : 2021-12-08 11:27:49 +0900
+updated : 2021-12-09 09:57:26 +0900
 tags    : 
 toc     : true
 public  : true
@@ -41,6 +41,6 @@ ${AnsiColor.BRIGHT_YELLOW}
 //      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
 //Buddha's blessings will never be shut down and there will never be BUG//
 ////////////////////////////////////////////////////////////////////
-${AnsiColor.BRIGHT_BLUE}:: Healthcare Tableau 🤓  :: Running Spring Boot ${spring-boot.version} ::
+${AnsiColor.BRIGHT_BLUE}:: Zero's Application 🤓  :: Running Spring Boot ${spring-boot.version} ::
 
 ```
