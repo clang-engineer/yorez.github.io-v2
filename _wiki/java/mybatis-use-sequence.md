@@ -3,7 +3,7 @@ layout  : wiki
 title   : mybatis 데이터 삽입시 시퀀스 다음값 얻기
 summary : 
 date    : 2021-11-22 09:53:55 +0900
-updated : 2021-12-08 10:22:51 +0900
+updated : 2021-12-10 09:56:31 +0900
 tags    : 
 toc     : true
 public  : true
@@ -37,6 +37,8 @@ latex   : false
 - 시퀀스를 생성하는 시기를 결정.
 - before, after 각각 쿼리문 실행 전, 후에 시퀀스 값 생성.
 
-# resultType
+## resultType
 - 반환값의 데이터형
+
+* <insert> 가 사용하는 parameterType 에 sequnse keyProperty 를 setting 할 수 있는 속성과 setter 메서드가 있어야 한다!
 
