@@ -3,7 +3,7 @@ layout  : wiki
 title   : vim cheat sheet
 summary : 
 date    : 2021-12-09 08:41:32 +0900
-updated : 2021-12-10 08:59:43 +0900
+updated : 2021-12-13 09:13:09 +0900
 tags    : 
 toc     : true
 public  : true
@@ -366,3 +366,59 @@ gg=G - 전체 버퍼 자동정렬
 :q! or zQ - 나가기(변경무시)
 
 :wqa - 모든 탭 저장하고 나가기
+
+
+---
+## 검색과 바꾸기
+
+/pattern - 패턴 검색(순방향)
+
+?pattern - 패턴 검색(역방향)
+
+/vpattern - 특수 매직 패턴
+
+n - 다음 검색항목으로 점프
+
+N - 이전 검색항목으로 점프
+
+:%s/old/new/g - 모든 old를 new로 바꾸기
+
+:%s/ond/new/gc - 모든 old를 new로 확인하며 바꾸기
+
+:noh[lsearch] - 검색 하이라이트 제거
+
+
+---
+## 여러 파일 검색
+
+:vim[grep]/pattern/{`{file}`} - 여러 파일에서 패턴 검색
+
+:cn[ext] - 다음 검색항목으로 점프
+
+:cp[revious] - 이전 검색항목으로 점프
+
+:cope[n] - 일치 목록을 새창으로 열기
+
+:ccl[ose] - 일치 목록 항목 닫기
+
+
+---
+## 탭
+
+:tabnew or :tabnew {page.words.file} - 새 탭에서 파일 열기
+
+Ctrl + wT - 현재 분할 창을 새로운 탭으로 이동
+
+gt or :tabn[ext] - 다음 탭으로 이동
+
+gT or :tabnp[revious] - 이전 탭으로 이동
+
+#gt - #번째 탭으로 이동
+
+:tabm[ove] - # - 현재 탭을 #번째로 이동
+
+:tabc[lose] - 현재 탭과 그 안으 창을 닫기
+
+:tabo[nly] - 현재 탭 이외의 모든 탭 닫기
+
+:tabdo 'command' - 모든 탭에서 command 실행하기(예를 들어 :tabdo q - 열린 모든 탭 닫기)
