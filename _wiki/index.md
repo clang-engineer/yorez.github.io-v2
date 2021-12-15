@@ -33,6 +33,10 @@ regenerate: true
 * [[git/etc]]
 * [[git/revert]]
 
+## [[study/index]]
+* [[study/modoocode-cpp]]
+
+
 ## [[algorithm/index]]
 * [[algorithm/greedy]]
 
