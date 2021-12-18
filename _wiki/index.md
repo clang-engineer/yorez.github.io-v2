@@ -35,7 +35,8 @@ regenerate: true
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
-* [[study/hot-programming-tcpip]]
+* [[study/hot-tcpip]]
+* [[study/hot-data-structure]]
 
 
 ## [[algorithm/index]]
