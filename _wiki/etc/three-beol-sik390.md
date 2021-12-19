@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 세벌식 키보드
+title   : 390 세벌식 키보드
 summary : 
 date    : 2021-12-09 12:58:43 +0900
-updated : 2021-12-19 12:05:56 +0900
+updated : 2021-12-19 12:08:19 +0900
 tags    : 
 toc     : true
 public  : true
