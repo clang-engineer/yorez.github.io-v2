@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 세벌식 390 키보드
+title   : 세벌식 키보드
 summary : 
 date    : 2021-12-09 12:58:43 +0900
-updated : 2021-12-19 11:57:21 +0900
+updated : 2021-12-19 12:05:56 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,6 +12,9 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## 390을 고른 이유
+나는 입문자고 세벌식 중에는 390이 장벽이 낮다고 해서 390을 골랐다
 
 ## 장점 
 1. 빠르다

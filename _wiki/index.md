@@ -58,7 +58,7 @@ regenerate: true
 * [[etc/private-certificate]]
 * [[etc/postgresql-sequence]]
 * [[etc/git-study-site]]
-* [[etc/three-beol-sik]]
+* [[etc/three-beol-sik390]]
 
 ## [[window/index]]
 
