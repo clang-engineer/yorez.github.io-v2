@@ -79,6 +79,7 @@ regenerate: true
 * [[java/collction-map-tip]]
 * [[java/list-to-map-transform]]
 * [[java/spring-boot-boodha-banner]]
+* [[java/spring-vs-code-debugging]]
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
