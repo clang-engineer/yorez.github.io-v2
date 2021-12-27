@@ -3,7 +3,7 @@ layout  : wiki
 title   : 열혈 TCP/IP 소켓 프로그래밍
 summary : 
 date    : 2021-12-16 08:54:10 +0900
-updated : 2021-12-22 14:22:40 +0900
+updated : 2021-12-27 10:21:27 +0900
 tags    : 
 toc     : true
 public  : true
@@ -66,7 +66,7 @@ latex   : false
     1. IO 멀티플렉싱 기반의 서버 
     2. select 함수의 이해와 서버의 구현
     3. 윈도우 기반으로 구현하기
-13. [ ] 다양한 입출력 함수들
+13. [X] 다양한 입출력 함수들
     1. send&recv 입출력 함수
     2. readv&writev 입출력 함수
 14. [ ] 멀티캐스트 & 브로드캐스트
@@ -115,9 +115,9 @@ latex   : false
 
 ## Part04 네트워크 프로그래밍 마무리하기
 
-24. [ ] HTTP 서버 제작하기
+24. [X] HTTP 서버 제작하기
     1. HTTP(Hypertext Transfer Protocol)의 개요 
     2. 매우 간단한 웹 서버의 구현
-25. [ ] 앞으로 해야 할 것들 
+25. [X] 앞으로 해야 할 것들 
     1. 네트워크 프로그래밍! 얼마나 공부해야 하나요?
     2. 네트워크 프로그래밍 관련 책 소개
