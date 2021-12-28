@@ -61,6 +61,7 @@ regenerate: true
 * [[etc/postgresql-sequence]]
 * [[etc/git-study-site]]
 * [[etc/three-beol-sik390]]
+* [[etc/can-not-find-npm-cli]]
 
 ## [[window/index]]
 
