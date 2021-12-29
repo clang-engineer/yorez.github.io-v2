@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 해피해킹(HHKB) 하이브리드 일반 vs type-s 벼교 사용후기
+title   : 해피해킹(HHKB) 하이브리드 일반 vs type-s 비교 사용후기
 summary : 
 date    : 2021-10-18 12:28:17 +0900
-updated : 2021-10-18 12:39:13 +0900
+updated : 2021-12-29 09:13:35 +0900
 tags    : 
 toc     : true
 public  : private
