@@ -19,7 +19,7 @@ regenerate: true
 
 * [[linux/jobs]]
 * [[linux/command]]
-* [[linux/nohub]]
+* [[linux/nohup]]
 * [[linux/shell-script]]
 * [[linux/scp]]
 
