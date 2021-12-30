@@ -62,6 +62,7 @@ regenerate: true
 * [[etc/git-study-site]]
 * [[etc/three-beol-sik390]]
 * [[etc/can-not-find-npm-cli]]
+* [[etc/data-structure]]
 
 ## [[window/index]]
 
