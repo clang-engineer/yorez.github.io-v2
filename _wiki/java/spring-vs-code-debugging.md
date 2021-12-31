@@ -3,7 +3,7 @@ layout  : wiki
 title   : vs code로 스프링 디버깅을 원할 경우
 summary : 
 date    : 2021-12-23 10:57:57 +0900
-updated : 2021-12-24 16:40:39 +0900
+updated : 2021-12-31 13:54:45 +0900
 tags    : 
 toc     : true
 public  : true
@@ -13,20 +13,27 @@ latex   : false
 * TOC
 {:toc}
 
-## 필요 확장팩
+## 확장팩 목록
 
-Extension pack for Java
-Spring Boot Extension Pack
-Gradle Extension Pack 
-Lombok Annotation Support for VS Code
-Vim
+- Language support for java (필수)
+- Debugger for java (필수)
+- Extension pack for Java
+- Spring Boot Extension Pack
+- Gradle Extension Pack 
+- Lombok Annotation Support for VS Code
+- Vim
 
-## Java Debugging 위한 셋팅
+## Java 셋팅
 
 ### setting.json
 
+java환경변수 설정 
 ```
 "java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home",
+```
+
+gradle task로 디버깅시
+```
 "gradle.javaDebug": {
     "tasks": [
         "bootRun"
@@ -35,10 +42,7 @@ Vim
 }
 ```
 
-### main함수가서 run or debug
-- launch.json 생성됨
- 
-### launch.json
+### launch.json (sidebar >> Run and Debug >> add configuration 시 생성됨)
 ```
 "version": "0.2.0",
 "configurations": [
