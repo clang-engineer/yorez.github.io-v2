@@ -33,6 +33,9 @@ regenerate: true
 * [[git/etc]]
 * [[git/revert]]
 
+## [[data-structure/index]]
+## [[data-structure/binary-search]]
+
 ## [[study/index]]
 * [[study/modoocode-cpp]]
 * [[study/modoocode-c]]
