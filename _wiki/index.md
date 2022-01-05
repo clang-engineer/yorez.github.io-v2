@@ -34,7 +34,10 @@ regenerate: true
 * [[git/revert]]
 
 ## [[data-structure/index]]
-## [[data-structure/binary-search]]
+* [[data-structure/binary-search]]
+* [[data-structure/array-list]]
+
+
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
