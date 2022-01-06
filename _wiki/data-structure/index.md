@@ -3,11 +3,11 @@ layout  : category
 title   : 자료구조
 summary : 
 date    : 2021-12-31 17:12:06 +0900
-updated : 2022-01-02 19:46:31 +0900
+updated : 2022-01-06 09:06:30 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[index]]
 latex   : false
 ---
 * TOC

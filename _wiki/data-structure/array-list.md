@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 배열로 이용한 리스트
+title   : 배열을 이용한 리스트
 summary : 
 date    : 2022-01-05 17:08:10 +0900
-updated : 2022-01-05 17:11:43 +0900
+updated : 2022-01-06 09:07:10 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,8 +12,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-# 배열로 이용한 리스트
 
 ## main.c
 ```c
