@@ -32,3 +32,7 @@ latex   : false
 
 ### git reset HEAD~n
 - n만큼 커밋 취소
+ 
+### 특정 파일만 취소하고 싶을 때
+-- git checkout -- [Filename]
+
