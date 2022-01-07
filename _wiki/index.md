@@ -37,6 +37,7 @@ regenerate: true
 * [[data-structure/binary-search]]
 * [[data-structure/array-list]]
 * [[data-structure/array-list-of-struct]]
+* [[data-structure/linked-list]]
 
 
 
