@@ -22,6 +22,7 @@ regenerate: true
 * [[linux/nohup]]
 * [[linux/shell-script]]
 * [[linux/scp]]
+* [[linux/curl]]
 
 ## [[git/index]]
 * [[git/diff]]
