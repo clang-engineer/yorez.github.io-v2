@@ -3,7 +3,7 @@ layout  : wiki
 title   : tableau trusted ticket
 summary : 
 date    : 2021-10-05 10:56:05 +0900
-updated : 2021-10-13 16:55:17 +0900
+updated : 2022-01-28 08:59:09 +0900
 tags    : tableau trusted ticket
 toc     : true
 public  : true
@@ -71,6 +71,13 @@ ticket 발급을 위해선 태블로 서버의 접근 허용 ip 목록에 태블
 <h4>Be sure to add your IP as a Trusted IP address to the server</h4>
 </body>
 </html>
+```
+
+## cmd에서 사용할 수 있는 요청 curl
+```sh
+curl -k -d '{"username": "admin"}' \
+-H "Content-Type: application/json" \
+-x POST https://xx.xx.xx.xx/trusted
 ```
 
 
