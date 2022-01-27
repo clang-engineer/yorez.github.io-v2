@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유용한 shell script 
 summary : 
 date    : 2021-10-13 12:57:35 +0900
-updated : 2022-01-27 10:10:08 +0900
+updated : 2022-01-27 10:16:17 +0900
 tags    : 
 toc     : true
 public  : true
@@ -51,4 +51,13 @@ done
 - #!/bin/bash를 기입시 아래와 같이 한줄로 써야하므로 작성x
 ```sh
 for file in *.png; do mv "$file" "${file/_h.png/_half.png}"; done
+```
+
+## 특정 문자열을 일괄 변경
+```sh
+#!/bin/bash
+for i in `find .`
+do
+mv $i `echo $i | sed -e 's/\/e/\/h/'`
+done
 ```
