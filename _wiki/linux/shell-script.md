@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유용한 shell script 
 summary : 
 date    : 2021-10-13 12:57:35 +0900
-updated : 2022-01-27 10:28:39 +0900
+updated : 2022-01-27 10:34:57 +0900
 tags    : 
 toc     : true
 public  : true
@@ -62,6 +62,9 @@ mv $i `echo $i | sed -e 's/\/e/\/h/'`
 done
 ```
 
-## brew install rename
-
-- 그냥 brew 에서 rename util을 받아서 사용하는게 제일 간편했다..
+## brew rename util 사용
+- brew install rename
+```
+brew install rename
+rename 's/old/new/g' *
+```
