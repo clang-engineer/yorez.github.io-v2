@@ -72,6 +72,7 @@ regenerate: true
 * [[etc/three-beol-sik390]]
 * [[etc/can-not-find-npm-cli]]
 * [[etc/data-structure]]
+* [[etc/mac-setting]]
 
 ## [[window/index]]
 
