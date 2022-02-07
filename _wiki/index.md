@@ -73,6 +73,7 @@ regenerate: true
 * [[etc/can-not-find-npm-cli]]
 * [[etc/data-structure]]
 * [[etc/mac-setting]]
+* [[etc/excalidraw]]
 
 ## [[window/index]]
 
