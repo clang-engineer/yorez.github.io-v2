@@ -74,6 +74,7 @@ regenerate: true
 * [[etc/data-structure]]
 * [[etc/mac-setting]]
 * [[etc/excalidraw]]
+* [[etc/diagramnet]]
 
 ## [[window/index]]
 
