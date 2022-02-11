@@ -100,6 +100,7 @@ regenerate: true
 * [[javascript/axios-collection-set-send]]
   
 ## [[chrome/index]]
+* [[chrome/useful-plugin]]
 
 ## [[cheat-sheet/index]]
 * [[cheat-sheet/tmux]]
