@@ -3,7 +3,7 @@ layout  : wiki
 title   : 원형 연결 리스트(Circular Linked List)
 summary : 
 date    : 2022-02-13 22:18:16 +0900
-updated : 2022-02-13 22:24:57 +0900
+updated : 2022-02-13 22:30:22 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,6 +14,9 @@ latex   : false
 {:toc}
 
 ## 원형 연결 리스트 
+
+마지막 노드가 첫 번째 노드를 가리키는 자료구조. 
+단순 연결 리스트처럼 머리와 꼬리를 가리키는 포인터 변수를 각각 두지 않아도, 하나의 포인터 변수만 있어도 머리 또는 꼬리에 노드를 간단히 추가할 수 있다.
 
 ## main.c
 ```c
