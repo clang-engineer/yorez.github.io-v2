@@ -40,6 +40,7 @@ regenerate: true
 * [[data-structure/array-list-of-struct]]
 * [[data-structure/linked-list]]
 * [[data-structure/circular-linked-list]]
+* [[data-structure/db-linked-list]]
 
 
 
