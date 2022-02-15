@@ -41,8 +41,7 @@ regenerate: true
 * [[data-structure/linked-list]]
 * [[data-structure/circular-linked-list]]
 * [[data-structure/db-linked-list]]
-
-
+* [[data-structure/array-base-stack]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
