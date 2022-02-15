@@ -3,7 +3,7 @@ layout  : wiki
 title   : git 관련 추가 팁 
 summary : 
 date    : 2021-10-21 16:10:42 +0900
-updated : 2021-11-21 22:04:08 +0900
+updated : 2022-02-15 21:33:01 +0900
 tags    : 
 toc     : true
 public  : true
@@ -35,3 +35,15 @@ git revert --no-commit [되돌리고 싶은 commit의 hash]
 ```
 
 ### 통째로 commit 되돌리기
+
+
+# git commit 날짜 바꾸기
+## 마지막 Commit 날짜를 현재 날짜로 설정
+```bash
+git commit --amend --no-edit --date "$(date)"
+```
+
+## 마지막 Commit 날짜를 임의의 날짜로 설정
+```bash
+git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 KST"
+```
