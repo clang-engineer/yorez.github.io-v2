@@ -45,6 +45,7 @@ regenerate: true
 * [[data-structure/list-base-stack]]
 * [[data-structure/circular-queue]]
 * [[data-structure/list-base-queue]]
+* [[data-structure/deque]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
