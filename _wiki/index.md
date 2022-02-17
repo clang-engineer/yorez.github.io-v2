@@ -43,6 +43,7 @@ regenerate: true
 * [[data-structure/db-linked-list]]
 * [[data-structure/array-base-stack]]
 * [[data-structure/list-base-stack]]
+* [[data-structure/circular-queue]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
