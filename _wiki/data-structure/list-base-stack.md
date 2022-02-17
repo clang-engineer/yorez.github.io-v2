@@ -3,7 +3,7 @@ layout  : wiki
 title   : 연결 리스트 기반 스택
 summary : 
 date    : 2022-02-17 14:46:56 +0900
-updated : 2022-02-17 14:51:12 +0900
+updated : 2022-02-17 23:26:51 +0900
 tags    : 
 toc     : true
 public  : true
@@ -13,7 +13,8 @@ latex   : false
 * TOC
 {:toc}
 
-## 연결 리스트 기반 스택
+## 소개
+- 스택은 저장된 순서의 역순으로 조회(삭제)가 가능한 연결 리스트의 일종으로 볼 수 있음.
 
 ## main.c
 ```c

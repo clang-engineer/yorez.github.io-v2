@@ -3,7 +3,7 @@ layout  : wiki
 title   : 원형큐
 summary : 
 date    : 2022-02-17 20:33:58 +0900
-updated : 2022-02-17 20:35:34 +0900
+updated : 2022-02-17 23:18:28 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,6 +12,11 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## 소개
+- 큐는 '선입선출'구조의 자료구조. FIFO(First-In, First-Out)구조의 자료구조.
+- 큐를 배열 기반으로 구현할 때, 큐를 구성하는 배열을 효율적으로 사용하기 위해 원형 큐를 사용.
+- 배열 기반의 큐라하면 대부분의 경우 원형 큐를 의미한다고 봐도 무방.
 
 ## main.c
 ```c
