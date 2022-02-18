@@ -3,7 +3,7 @@ layout  : wiki
 title   : 배열기반 stack
 summary : 
 date    : 2022-02-15 22:54:56 +0900
-updated : 2022-02-17 23:21:49 +0900
+updated : 2022-02-18 10:41:26 +0900
 tags    : 
 toc     : true
 public  : true
@@ -15,7 +15,7 @@ latex   : false
 
 ## 소개
 - 나중에 들어간 것이 먼저 나오는 구조.
-- 후입후출 방식의 자료구조, LIFO(Last-In, First-Out)구조의 자료구조.
+- 후입선출 방식의 자료구조, LIFO(Last-In, First-Out)구조의 자료구조.
 
 ## main.c
 
