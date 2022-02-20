@@ -3,7 +3,7 @@ layout  : wiki
 title   : tmux cheat sheet
 summary : 
 date    : 2021-11-30 15:56:19 +0900
-updated : 2021-12-01 17:51:21 +0900
+updated : 2022-02-20 13:22:12 +0900
 tags    : 
 toc     : true
 public  : true
@@ -59,6 +59,7 @@ tmux kill-session -t sessionname
 - <ctrl+b> + f : search windows
 - <ctrl+b> + & : kill window
 - <ctrl+b> + w : list windows
+- <ctrl+b> + z : toggle pane zoom
 
 # tmux panes
 - 화면을 여러개로 나눠쓸 때 사용하는 개념
