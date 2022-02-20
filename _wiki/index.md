@@ -53,6 +53,7 @@ regenerate: true
 * [[data-structure/selection-sort]]
 * [[data-structure/insertion-sort]]
 * [[data-structure/heap-sort]]
+* [[data-structure/merge-sort]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
