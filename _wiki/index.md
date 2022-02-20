@@ -48,6 +48,7 @@ regenerate: true
 * [[data-structure/deque]]
 * [[data-structure/binary-tree]]
 * [[data-structure/binary-tree-traverse]]
+* [[data-structure/priority-que-with-heap]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
