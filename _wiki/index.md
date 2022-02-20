@@ -49,6 +49,7 @@ regenerate: true
 * [[data-structure/binary-tree]]
 * [[data-structure/binary-tree-traverse]]
 * [[data-structure/priority-que-with-heap]]
+* [[data-structure/bubble-sort]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
