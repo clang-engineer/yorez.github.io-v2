@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : 버블 정렬 알고리즘
+title   : 버블 정렬 (Bubble Sort)
 summary : 
 date    : 2022-02-20 19:00:20 +0900
-updated : 2022-02-20 19:04:44 +0900
+updated : 2022-02-20 19:39:23 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[data-structure/index]]
 latex   : false
 ---
 * TOC
