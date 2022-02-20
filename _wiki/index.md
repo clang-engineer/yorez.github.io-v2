@@ -51,6 +51,7 @@ regenerate: true
 * [[data-structure/priority-que-with-heap]]
 * [[data-structure/bubble-sort]]
 * [[data-structure/selection-sort]]
+* [[data-structure/insertion-sort]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
