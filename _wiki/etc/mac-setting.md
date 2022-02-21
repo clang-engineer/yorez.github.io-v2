@@ -3,7 +3,7 @@ layout  : wiki
 title   : 맥북 셋팅
 summary : 
 date    : 2022-02-05 16:24:30 +0900
-updated : 2022-02-05 16:48:43 +0900
+updated : 2022-02-21 17:55:59 +0900
 tags    : 
 toc     : true
 public  : true
@@ -13,7 +13,9 @@ latex   : false
 * TOC
 {:toc}
 
-## old 맥북에서 new 맥북으로 이사가기
+> 출처: https://johngrib.github.io/wiki/migrate-to-new-macbook/
+
+## 새 맥북 셋팅하기 
 
 ### Brewfile 생성
 ```sh
@@ -25,12 +27,17 @@ brew bundle dump
 
 ## new 맥북에서 할일
 
+### xcode-select 설치
+```sh
+xcode-selct --install
+```
+
 ### Homebrew 설치
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-### Brewfile 생성
+### Brewfile 실행
 old 맥북에서 생성한 Brewfile을 다운받고 다운받은 위치에서 brew bundle 실행
 ```sh
 brew bundle
@@ -63,8 +70,17 @@ ssh -T github.com-planit-zero
 ```
 
 ### vim 설정
+- vim-plug를 설치한다
 
 ### Jebrains Toolbox 다운로드
+- 라이선스를 갖고 있는 IDE를 추가로 설치
 
+### tmux 설정
 
-###
+### zsh 설정
+
+## 취향
+
+### 세 손가락 드래그
+- 시스템 환경설정 - 손쉬운 사용 - 포인트 제어기 - 트랙패드 옵션
+    - 드래그 활성화에서 세 손가락으로 드래그하기
