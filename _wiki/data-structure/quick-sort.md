@@ -3,7 +3,7 @@ layout  : wiki
 title   : 퀵 정렬(Quick Sort)
 summary : 
 date    : 2022-02-25 10:37:18 +0900
-updated : 2022-02-25 10:56:21 +0900
+updated : 2022-02-25 14:59:03 +0900
 tags    : 
 toc     : true
 public  : true
@@ -19,7 +19,8 @@ latex   : false
 3. 분할된 두 개의 작은 배열에 대해 재귀(Recursion)적으로 이 과정을 반복한다.
 
 ## 성능
-O(nlog_2_n)
+- O(nlog_2_n): 평균에 대한 빅오
+- 퀵정렬은 최선의 경우에 가까운 성능을 평균적으로 보이기 때문에 평균에 대한 빅오를 빅오로 보기도 한다 (최악의 경우 - O(n^2))
 
 ## QuickSort.c
 ```c
