@@ -35,7 +35,6 @@ regenerate: true
 * [[git/revert]]
 
 ## [[data-structure/index]]
-* [[data-structure/binary-search]]
 * [[data-structure/array-list]]
 * [[data-structure/array-list-of-struct]]
 * [[data-structure/linked-list]]
@@ -56,6 +55,8 @@ regenerate: true
 * [[data-structure/merge-sort]]
 * [[data-structure/quick-sort]]
 * [[data-structure/radix-sort]]
+* [[data-structure/binary-search]]
+* [[data-structure/interpolation-search]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
