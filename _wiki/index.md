@@ -54,6 +54,7 @@ regenerate: true
 * [[data-structure/insertion-sort]]
 * [[data-structure/heap-sort]]
 * [[data-structure/merge-sort]]
+* [[data-structure/quick-sort]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
@@ -65,7 +66,7 @@ regenerate: true
 ## [[algorithm/index]]
 * [[algorithm/greedy]]
 
-## [[computer-science/index]]
+#ot-tcpip]]# [[computer-science/index]]
 
 * [[computer-science/computer-metaphor]]
 * [[computer-science/return-exit-diff]]
