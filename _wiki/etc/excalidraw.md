@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : 
+title   : Excalidraw
 summary : 
 date    : 2022-02-07 14:14:52 +0900
-updated : 2022-02-07 14:15:20 +0900
+updated : 2022-02-25 15:20:25 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[etc/index]]
 latex   : false
 ---
 * TOC

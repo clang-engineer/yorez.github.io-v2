@@ -66,8 +66,7 @@ regenerate: true
 ## [[algorithm/index]]
 * [[algorithm/greedy]]
 
-#ot-tcpip]]# [[computer-science/index]]
-
+## [[computer-science/index]]
 * [[computer-science/computer-metaphor]]
 * [[computer-science/return-exit-diff]]
 
@@ -85,10 +84,9 @@ regenerate: true
 * [[etc/git-study-site]]
 * [[etc/three-beol-sik390]]
 * [[etc/can-not-find-npm-cli]]
-* [[etc/data-structure]]
 * [[etc/mac-setting]]
 * [[etc/excalidraw]]
-* [[etc/diagramnet]]
+* [[etc/diagrams-net]]
 
 ## [[window/index]]
 
@@ -105,7 +103,7 @@ regenerate: true
 * [[java/excel-read-util]]
 * [[java/mybatis-map-keyvalue-dynamically]]
 * [[java/mybatis-use-sequence]]
-* [[java/collction-map-tip]]
+* [[java/occupy-multiple-port]]
 * [[java/list-to-map-transform]]
 * [[java/spring-boot-boodha-banner]]
 * [[java/spring-vs-code-debugging]]

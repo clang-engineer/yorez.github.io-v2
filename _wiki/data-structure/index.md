@@ -3,7 +3,7 @@ layout  : category
 title   : 자료구조
 summary : 
 date    : 2021-12-31 17:12:06 +0900
-updated : 2022-01-06 09:06:30 +0900
+updated : 2022-02-25 15:17:23 +0900
 tags    : 
 toc     : true
 public  : true
@@ -32,3 +32,5 @@ latex   : false
 - 실수
 - 문자
 - 문자열
+
+---
