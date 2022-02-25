@@ -3,7 +3,7 @@ layout  : wiki
 title   : 기수 정렬(Radix Sort)
 summary : 
 date    : 2022-02-25 19:16:17 +0900
-updated : 2022-02-25 19:31:14 +0900
+updated : 2022-02-25 19:36:03 +0900
 tags    : 
 toc     : true
 public  : true
@@ -24,6 +24,8 @@ latex   : false
 4. 가장 높은 자리수를 기준으로 하여 자리수를 높여가며 2번 3번 과정을 반복한다.
 
 ## 성능
+- O(n)
+- 정렬대상의 수가 n이고, 모든 정렬대상의 길이가 l이라 할 때, 시간 복잡도에 대한 기수 정렬의 빅오는 O(ln)이므로 O(n)으로 표현해도 무방
 
 ## RadixSort.c
 ```c
