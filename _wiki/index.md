@@ -55,6 +55,7 @@ regenerate: true
 * [[data-structure/heap-sort]]
 * [[data-structure/merge-sort]]
 * [[data-structure/quick-sort]]
+* [[data-structure/radix-sort]]
 
 ## [[study/index]]
 * [[study/modoocode-cpp]]
