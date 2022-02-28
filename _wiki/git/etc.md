@@ -3,7 +3,7 @@ layout  : wiki
 title   : git 관련 추가 팁 
 summary : 
 date    : 2021-10-21 16:10:42 +0900
-updated : 2022-02-15 21:33:01 +0900
+updated : 2022-02-28 18:34:36 +0900
 tags    : 
 toc     : true
 public  : true
@@ -46,4 +46,16 @@ git commit --amend --no-edit --date "$(date)"
 ## 마지막 Commit 날짜를 임의의 날짜로 설정
 ```bash
 git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 KST"
+```
+
+## 이력 추적 중이던 내용 무시하기
+
+### file 이력 관리 취소
+```bash
+git rm --cached <file>
+```
+
+### folder 이력 관리 취소
+```bash
+git rm -r --cached <folder>
 ```
