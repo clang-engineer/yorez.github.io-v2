@@ -3,7 +3,7 @@ layout  : wiki
 title   : git log 출력
 summary : 
 date    : 2022-03-07 16:48:33 +0900
-updated : 2022-03-07 17:02:13 +0900
+updated : 2022-03-07 17:03:25 +0900
 tags    : 
 toc     : true
 public  : true
