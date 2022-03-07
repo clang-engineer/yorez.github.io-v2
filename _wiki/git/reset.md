@@ -3,7 +3,7 @@ layout  : wiki
 title   : reset 명령어 메모
 summary : 
 date    : 2021-10-14 14:59:53 +0900
-updated : 2021-10-14 15:16:41 +0900
+updated : 2022-03-07 17:06:52 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,6 +14,14 @@ latex   : false
 {:toc}
 
 ## git reset <옵션> <commit>
+
+## Synopsis (git reset --help)
+```sh
+git reset [-q] [<tree-ish>] [--] <pathspec>...
+git reset [-q] [--pathspec-from-file=<file> [--pathspec-file-nul]] [<tree-ish>]
+git reset (--patch | -p) [<tree-ish>] [--] [<pathspec>...]
+git reset [--soft | --mixed [-N] | --hard | --merge | --keep] [-q] [<commit>]
+```
 ### git reset --mixed
 - 기본 옵션
 - 변경된 내용 보존 o

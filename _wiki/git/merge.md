@@ -3,7 +3,7 @@ layout  : wiki
 title   : git merge
 summary : 
 date    : 2022-03-07 13:24:11 +0900
-updated : 2022-03-07 17:01:22 +0900
+updated : 2022-03-07 17:06:04 +0900
 tags    : 
 toc     : true
 public  : true
@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
-## Synopsis
+## Synopsis (git merge --help)
 ```sh
 git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
        [--no-verify] [-s <strategy>] [-X <strategy-option>] [-S[<keyid>]]

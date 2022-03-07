@@ -3,7 +3,7 @@ layout  : wiki
 title   : git stash 정리
 summary : 
 date    : 2021-10-21 12:47:09 +0900
-updated : 2021-11-24 17:24:32 +0900
+updated : 2022-03-07 17:07:45 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ latex   : false
 {:toc}
 
 
-### Synopsis
+### Synopsis (git stash --help)
 ```sh
 git stash list [<log-options>]
 git stash show [-u|--include-untracked|--only-untracked] [<diff-options>] [<stash>]

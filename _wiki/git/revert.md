@@ -3,7 +3,7 @@ layout  : wiki
 title   : git revert
 summary : 
 date    : 2021-10-23 17:35:34 +0900
-updated : 2021-10-23 17:36:14 +0900
+updated : 2022-03-07 17:07:34 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,6 +12,12 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## Synopsis (git revert --help)
+```sh
+git revert [--[no-]edit] [-n] [-m parent-number] [-s] [-S[<keyid>]] <commit>...
+git revert (--continue | --skip | --abort | --quit)
+```
 
 https://www.lainyzine.com/ko/article/git-revert-reverting-commit-in-git-repository/
 
