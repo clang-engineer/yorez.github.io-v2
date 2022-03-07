@@ -3,7 +3,7 @@ layout  : wiki
 title   : git merge
 summary : 
 date    : 2022-03-07 13:24:11 +0900
-updated : 2022-03-07 13:27:33 +0900
+updated : 2022-03-07 17:01:22 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,6 +12,15 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## Synopsis
+```sh
+git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
+       [--no-verify] [-s <strategy>] [-X <strategy-option>] [-S[<keyid>]]
+       [--[no-]allow-unrelated-histories]
+       [--[no-]rerere-autoupdate] [-m <msg>] [-F <file>] [<commit>...]
+git merge (--continue | --abort | --quit)
+```
 
 ## git commit 없이 병합하기
 
