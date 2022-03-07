@@ -31,8 +31,9 @@ regenerate: true
 * [[git/multi-account]]
 * [[git/stash]]
 * [[git/clean]]
-* [[git/etc]]
 * [[git/revert]]
+* [[git/merge]]
+* [[git/etc]]
 
 ## [[data-structure/index]]
 * [[data-structure/array-list]]
