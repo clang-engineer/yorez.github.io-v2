@@ -23,6 +23,8 @@ regenerate: true
 * [[linux/shell-script]]
 * [[linux/scp]]
 * [[linux/curl]]
+* [[linux/confirm-cpu-usage]]
+* [[linux/confirm-memory-usage]]
 
 ## [[git/index]]
 * [[git/diff]]
