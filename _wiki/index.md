@@ -68,6 +68,9 @@ regenerate: true
 * [[study/hot-tcpip]]
 * [[study/hot-data-structure]]
 
+## [[information-security/index]]
+* [[information-sucirity/ch01-system]]
+
 
 ## [[algorithm/index]]
 * [[algorithm/greedy]]
