@@ -1,0 +1,26 @@
+
+
+<!-- 2018.06.25 호환성보기 설정을 하지 않기 위해 문서모드 IE 10으로 설정 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=10"> -->
+<link rel="SHORTCUT ICON" href="/images/new/ecos.ico"/>
+<TITLE>한국은행경제통계시스템</TITLE>
+<script type="text/javascript" language="javascript">
+	function init() {
+		// 2017.09.20 - Dacos 로 이동
+		if(location.hostname.search("dacos") > -1) {
+			location.replace("Dacos.jsp");
+		}
+		window.status="ECOS";
+	}
+</script>
+</head>
+<frameset rows="0,*" border="0" frameborder="0" onload="init()">
+	<frame src="about:blank" name="hiddenFrmXXXXX" marginwidth=0 marginheight=0 scrolling=no frameborder=0>
+	<frame src="EIndex.jsp" name="indexFrmXXXXX" marginwidth=0 marginheight=0 scrolling=auto frameborder=0>
+</frameset>
+</html>
