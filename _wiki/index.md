@@ -105,7 +105,6 @@ regenerate: true
 * [[tableau/tableau-trusted-ticket]]
 * [[tableau/tableau-issue]]
 
-
 ## [[java/index]]
 * [[java/occupy-multiple-port]]
 * [[java/mybatis-multiple-datasource]]
@@ -122,6 +121,9 @@ regenerate: true
   
 ## [[chrome/index]]
 * [[chrome/useful-plugin]]
+
+## [[css/index]]
+* [[css/global-variable]]
 
 ## [[cheat-sheet/index]]
 * [[cheat-sheet/tmux]]
