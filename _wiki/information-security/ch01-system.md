@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch01 시스템
 summary : 
 date    : 2022-03-12 23:03:43 +0900
-updated : 2022-03-21 01:54:33 +0900
+updated : 2022-03-21 02:05:06 +0900
 tags    : 
 toc     : true
 public  : true
@@ -421,3 +421,35 @@ USER TTY FROM LOGIN@ IDLE WHAT
 - 스택 가드: 메모리상에서 프로그램의 복귀 주소와 변수 사이에 특정 값(카나리 단어)을 저장해 두었다가 그 값이 변경되었을 경우를 오버플로우로 가정하여 프로그램 실행을 중단하는 기술
 - 스택 쉴드: 함수 시작 시 복귀 주소를 Global RET라는 특수 스택에 저장해 두었다가 함수 종료 시 저장된 값과 스택의 RET값을 비교해 다를 경우 오버플로우로 가정하여 프로그램 실행을 중단시키는 기술
 - ASLR(Addrdess Space Layout Randomizaiton): 메모리 공격을 방어하기 위해 주소 공간 배치를 난수화하는 기법
+
+
+--- 
+### UNIX/Linux 서버 취약점
+- root 이외의 UID 0 금지
+- 패스워드 복잡성 설정
+- 패스워드 최소 길이 설정
+```sh
+#cat /etc/login.defs
+PASS_MIN_LEN=8
+```
+- 패스워드 최대 사용기간 설정
+```sh
+#cat /etc/login.defs
+PASS_MAX_DAYS 90(단위: 일)
+```
+- 패스워드 최소 사용기간 설정
+```sh
+#cat /etc/login.defs
+PASS_MIN_DAYS 1(단위: 일)
+```
+- 패스워드 파일 보호
+('/etc/shaodw'파일에 암호화된 패스워드가 저장되고 권한이 있는 사용자만 읽을 수 있음)
+- Session Timeout 설정 
+```sh
+#cata /etc/prfile
+TMOUT=600
+```
+
+- root 홈, 패스 디렉터리 권한 및 패스 설정
+- 파일 및 디렉터리 소유자/소유그룹 설정
+- world writable 파일 점검
