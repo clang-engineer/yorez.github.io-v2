@@ -69,7 +69,8 @@ regenerate: true
 * [[study/hot-data-structure]]
 
 ## [[information-security/index]]
-* [[information-sucirity/ch01-system]]
+* [[information-security/ch01-system]]
+* [[information-security/ch02-network]]
 
 
 ## [[algorithm/index]]
