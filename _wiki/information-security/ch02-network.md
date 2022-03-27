@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch02 네트워크
 summary : 
 date    : 2022-03-26 17:08:53 +0900
-updated : 2022-03-26 17:53:27 +0900
+updated : 2022-03-27 21:57:15 +0900
 tags    : 
 toc     : true
 public  : true
@@ -71,12 +71,10 @@ ICMP Redirect는 희생자의 라우팅 테이블을 변조하여 스니핑한�
 - port option: -p [port number]
 - output option
 
-
 ## TCP Connect(Open) 스캔
 - Open Port: syn -> syn+ack -> ack
 - Closed Port: syn -> rst+ack
 - Filtered: 응답x or ICMP Destination Unreacheable
-
 
 ## TCP Syn 스캔
 - Open Port: syn -> syn+ack -> rst
@@ -93,3 +91,50 @@ ICMP Redirect는 희생자의 라우팅 테이블을 변조하여 스니핑한�
 ## UDP 스캔
 - Open Port: UDP응답 or 응답 x
 - Closed Port: ICMP Destination Unreachable 응답
+
+## DoS(Denial Of Service) 공격 211
+- Ping Of Death Attack
+- Land Attack
+- Smurf Attack
+- Teardrop Attack
+
+## Smurf Attack 대응책?
+- 다른 네트워크로부터 자신의 네트워크로 들어오는 Directed Broadcast 패킷을 허용하지 않도록 라우터 설정
+- 브로드캐스트 주소로 전송된 ICMP Icho Request 메시지에 대해 응답하지 않도록 시스템 설정
+
+## TCP Syn Flooding 대응책
+- 방화벽을 이용하여 동일 Cliet(IP)의 연결(SYN) 요청에 대한 임계치 설정
+(ex> iptables -A INPUT -p TCP --dport 80 --syn -m conlimit --conlimit-above 5 -j DROP)
+- First SYN DROP 설정
+- Backlog quere의 크기를 늘려준다
+- SYN+ACK에 대한 대기 시간을 줄인다
+
+## Slow 계열 공격 유형
+- Slow HTTP Header DoS(Slowloris) 공격
+- Slow HTTP POST DoS(RUDY) 공격
+- Slow HTTP Read DoS 공격
+
+## Slow HTTP Header/POST 공격 대응책
+- 동시 연결에 대한 임계치 설정을 통한 차단
+(ex> iptables -A INPUT -p tcp --dport 80 -m conlimit --conlimit-above 5 -j DROP)
+- 연결 타임아웃 설정을 통한 차단
+
+## WEP 암호 방식
+- 무작위로 생성하는 24bit 초기벡터(IV)와 고정된 40bit 공유키를 조합하여 WEP암호키를 생성한 후 RC4 암호 알고리즘을 기반으로 한 난수발생기에 입력하여 스트림 암호를 위한 키스림을 생성
+
+## WPA 암호 방식
+- RC4-TKIP
+- WEP의 24bit 초기벡터(IV)를 확장한 48bit의 초기벡터(IV)를 사용
+
+## WPA2 암호 방식
+- AES-CCMP
+
+## IPsec - AH 프로토콜 273
+- 전송모드: IP헤더의 전송 중 변경 가능한 필드를 제외한 IP패킷 전체를 인증
+- 터널모드: New IP헤더의 전송 중 변경 가능한 필드를 제외한 New IP 패킷 전체를 인증
+
+## IPsec - ESP 프로토콜
+- 전송모드: IP 페이로드와 ESP 트레일러를 암호화하고 암호화된 데이터와 ESP 헤더를 인증 
+- 터널모드: 원본 IP 패킷 전체와 ESP 트레일러를 암호화하고 암호화된 데이터와 ESP 헤더를 인증
+- 인증에 있어서 AH 프로토콜과의 차이점은 AH는 변경 가능한 IP 헤더 필드를 제외한 IP 패킷 전체를 인증하지만 ESP는 IP헤더를 인증하지 않는다.
+
