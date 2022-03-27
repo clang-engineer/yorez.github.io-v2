@@ -71,6 +71,7 @@ regenerate: true
 ## [[information-security/index]]
 * [[information-security/ch01-system]]
 * [[information-security/ch02-network]]
+* [[information-security/ch03-application]]
 
 
 ## [[algorithm/index]]
