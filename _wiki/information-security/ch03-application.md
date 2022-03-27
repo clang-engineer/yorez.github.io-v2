@@ -3,7 +3,7 @@ layout  : wiki
 title   : ch03 어플리케이션
 summary : 
 date    : 2022-03-27 22:03:52 +0900
-updated : 2022-03-27 23:42:07 +0900
+updated : 2022-03-28 00:14:49 +0900
 tags    : 
 toc     : true
 public  : true
@@ -88,3 +88,29 @@ allow-transfer {192.168.159.137;};
 
 ## community string
 - SNMP 데몬과 클라이언트가 데이터를 교환하기 전에 인증을 위해 사용하느 인졸읭 패스워드
+
+## 웹서버(Apache) 설정파일(httpd.conf) 주요 내용
+- ServerRoot "/etc/httpd": Apache 웹서버의 홈 디렉터리 설정
+- PidFile "run/httpd.pid": 웹서버가 기동될 때 자신의 PID를 기록할 파일의 위치 설정
+- Listen 80: 웹서버 데몬의 리스닝 포트 지정
+- ServerTokens Prod: Apache의 HTTP응답 시 헤더의 Serer 필드를 통해 제공할 서버, OS, 모듈등의 정보 레벨을 지정
+- ServerAdmin admin@email.com: 웹문서 로딩 시 에러가 발행했을 경우 에러 페이지에 보일 관리자의 메일 주소
+- 
+User nobody 
+Group nobody
+: 서비스를 제공하는 작업 프로세스의 실행 User와 Group 정보를 저장
+- Timeout 300: 클라이언트의 요청에 의해 서버와 연결이 된 후 클라이언트와 서버 간에 아무런 메시지가 발행하지 않았을 때 타임아웃 시키고 연결을 끊을 시간을 초단위로 지정
+- MaxClients 300: 동시 연결 가능한 클라이언트의 최대 개수
+- KeepAlive On: 클라이언트와 연결된 작업 프로세스가 지속적인 요청 작업들을 계속해서 처리할지, 아니면 요청시마다 새로운 작업 프로세스가 처리할지 여부를 결정
+- MaxKeepAliveRequest 100: KeepAlive의 값이 On일 경우, 요청 작업의 최대 개수를 지정. 해당 횟수를 초과하면 현재 프로세스는 종료하고 다른 프로세스가 처리.
+- KeepAliveTimeout 5: KeepAlive의 값이 On일 경우, 설정한 시간(초 단위)동안 요청이 없다면 해당 프로세스는 연결을 종료. 
+
+
+## 데이터베이스 보안 통제
+- 접근 통제
+- 추론 통제
+- 흐름 통제
+
+## 데이터베이스 암호화 방식
+- 컬럼 암호화 방식 (API 방식, Plug-In 방식)
+- 블록 암호화 방식
