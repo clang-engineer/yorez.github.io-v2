@@ -36,6 +36,7 @@ regenerate: true
 * [[git/revert]]
 * [[git/merge]]
 * [[git/log]]
+* [[git/remote]]
 * [[git/etc]]
 
 ## [[data-structure/index]]
