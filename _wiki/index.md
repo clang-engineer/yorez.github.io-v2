@@ -134,3 +134,4 @@ regenerate: true
 
 ## [[docker/index]]
 * [[docker/docker-help]]
+* [[docker/install-offline]]
