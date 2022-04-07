@@ -3,7 +3,7 @@ layout  : wiki
 title   : git 관련 추가 팁 
 summary : 
 date    : 2021-10-21 16:10:42 +0900
-updated : 2022-04-04 09:11:38 +0900
+updated : 2022-04-07 16:59:55 +0900
 tags    : 
 toc     : true
 public  : true
@@ -63,4 +63,14 @@ git rm --cached <file>
 ### folder 이력 관리 취소
 ```bash
 git rm -r --cached <folder>
+```
+
+### git 트랙하지 않는 파일 삭제
+```sh
+git clean -df
+```
+
+### git 트랙하지 않는 파일 삭제 전 미리보기
+```sh
+git clean -n
 ```
