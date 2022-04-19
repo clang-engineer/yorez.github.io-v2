@@ -99,6 +99,7 @@ regenerate: true
 * [[etc/mac-setting]]
 * [[etc/excalidraw]]
 * [[etc/diagrams-net]]
+* [[etc/npm-install-err]]
 
 ## [[window/index]]
 
