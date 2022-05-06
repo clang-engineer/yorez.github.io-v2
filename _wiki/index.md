@@ -101,6 +101,7 @@ regenerate: true
 * [[etc/excalidraw]]
 * [[etc/diagrams-net]]
 * [[etc/npm-install-err]]
+* [[etc/setting-jupyterhub-offline]]
 
 ## [[window/index]]
 
