@@ -3,7 +3,7 @@ layout  : wiki
 title   : 리눅스 서비스 관리 데몬 systemd 
 summary : 
 date    : 2022-05-06 13:59:50 +0900
-updated : 2022-05-06 14:17:02 +0900
+updated : 2022-05-12 16:57:56 +0900
 tags    : 
 toc     : true
 public  : true
@@ -32,7 +32,7 @@ ExecStart=/home/test/start.sh
 WantedBy=multi-user.target
 ```
 
-### /usr/lib/systemd/system vs /etc/systemd/syste
+### /usr/lib/systemd/system vs /etc/systemd/system
 - /usr/lib/systemd/system
 OS 벤더사가 관리하는 영역으로 배포 저장소(Distribution repository)에서 다운로드되는 패키지로 제공되는 파일들이 위치한다.
 
