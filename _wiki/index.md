@@ -26,6 +26,7 @@ regenerate: true
 * [[linux/confirm-cpu-usage]]
 * [[linux/confirm-memory-usage]]
 * [[linux/systemd]]
+* [[linux/journalctl]]
 
 ## [[git/index]]
 * [[git/diff]]
