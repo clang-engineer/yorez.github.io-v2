@@ -23,8 +23,14 @@ latex: true
 * program <-> user-interface사이에서 데이터 흐름을 관장하는 작업을 선호합니다.
 * 가독성 좋고 유지보수하기 쉬운 코드를 만드는 것을 작업 목표로 합니다.
 
-## experience
+## certificate
+- 정보보안기사
+- 정보처리기사
+- 웹디자인기능사
+- 사회조사분석사
+- 컴퓨터 활용능력 1급
 
+## experience
 - planit - *2019.09 ~ 현재*
     - java, javasciprt : 데이터 시각화 시스템 설계 및 구축
 - ains partner - *2017.02 ~ 2019.04*
