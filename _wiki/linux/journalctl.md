@@ -3,7 +3,7 @@ layout  : wiki
 title   : journalctl 사용법
 summary : 
 date    : 2022-05-13 13:30:44 +0900
-updated : 2022-05-13 13:49:41 +0900
+updated : 2022-05-31 09:26:57 +0900
 tags    : 
 toc     : true
 public  : true
@@ -79,6 +79,12 @@ journalctl --since 2020-01-09
 journalctl --since 2020-01-09 --until 2020-01-11
 journalctl --since yesterday --until tomorrow
 journalctl --since "-2hour" --until "10min"
+```
+
+## 특정 서비스 로그 보기
+```bash
+jouranlctl -u test-service
+journalctl -f -u test-service
 ```
 
 > 출처: https://www.lesstif.com/system-admin/linux-journalctl-82215080.html
