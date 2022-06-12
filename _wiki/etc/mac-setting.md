@@ -3,7 +3,7 @@ layout  : wiki
 title   : 맥북 셋팅
 summary : 
 date    : 2022-02-05 16:24:30 +0900
-updated : 2022-02-21 17:55:59 +0900
+updated : 2022-06-12 03:21:52 +0900
 tags    : 
 toc     : true
 public  : true
@@ -78,6 +78,12 @@ ssh -T github.com-planit-zero
 ### tmux 설정
 
 ### zsh 설정
+1. intall zsh
+```sh
+sudo apt-get update
+sudo apt-get intall zsh -y
+chsh -s /usr/bin/zsh
+```
 
 ## 취향
 
