@@ -3,7 +3,7 @@ layout  : wiki
 title   : 맥북 셋팅
 summary : 
 date    : 2022-02-05 16:24:30 +0900
-updated : 2022-06-12 03:21:52 +0900
+updated : 2022-06-12 03:31:21 +0900
 tags    : 
 toc     : true
 public  : true
@@ -82,7 +82,28 @@ ssh -T github.com-planit-zero
 ```sh
 sudo apt-get update
 sudo apt-get intall zsh -y
-chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh # change default shell
+```
+2. install on my zsh
+```sh
+# Curl을 이용한 설치
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# wget을 이용한 설치
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
+3. install zsh plugin
+```sh
+# zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+brew
+
+# autojump
+apt intall autojump
 ```
 
 ## 취향
