@@ -104,6 +104,7 @@ regenerate: true
 * [[etc/diagrams-net]]
 * [[etc/npm-install-err]]
 * [[etc/setting-jupyterhub-offline]]
+* [[etc/on-my-zsh]]
 
 ## [[window/index]]
 
