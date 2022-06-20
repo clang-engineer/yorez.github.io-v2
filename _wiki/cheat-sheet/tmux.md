@@ -3,7 +3,7 @@ layout  : wiki
 title   : tmux cheat sheet
 summary : 
 date    : 2021-11-30 15:56:19 +0900
-updated : 2022-02-20 13:22:12 +0900
+updated : 2022-06-19 01:27:43 +0900
 tags    : 
 toc     : true
 public  : true
@@ -77,6 +77,7 @@ tmux kill-session -t sessionname
 - <ctrl+b> + { : move pane left 
 - <ctrl+b> + ! : convert pane to window 
 - <ctrl+b> + x : kill pane
+- <ctrl+b> + <ctrl+o> : swap pane
 
 # tmux copy mode
 ## key bindings
