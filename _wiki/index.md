@@ -105,6 +105,7 @@ regenerate: true
 * [[etc/npm-install-err]]
 * [[etc/setting-jupyterhub-offline]]
 * [[etc/on-my-zsh]]
+* [[etc/mac-md-to-pdf-convert]]
 
 ## [[window/index]]
 
