@@ -30,14 +30,3 @@ latex: true
 * program <-> user-interface사이에서 데이터 흐름을 관장하는 작업을 선호합니다.
 * 가독성 좋고 유지보수하기 쉬운 코드를 만드는 것을 작업 목표로 합니다.
 
-## experience
-- planit - *2019.09 ~ 현재*
-    - java, javasciprt : 데이터 시각화 시스템 설계 및 구축
-- ains partner - *2017.02 ~ 2019.04*
-    - c++, php, java : 인사평가 시스템 설계 및 구축
-- counterpoint research - *2016.11 ~ 2017.02*
-    - r, python, sas : 예측 모델 설계 및 구축
-- stemi - *2014.02 ~ 2015.02*
-    - r, python, sas : 예측 모델 설계 및 구축
-- 인하대학교 - 2007.03 ~ 2013.02 
-    - 통계학 학사
