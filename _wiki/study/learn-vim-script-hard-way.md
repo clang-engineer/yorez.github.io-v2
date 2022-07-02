@@ -3,7 +3,7 @@ layout  : wiki
 title   : Learn vim script hard way
 summary : 
 date    : 2022-07-02 10:22:42 +0900
-updated : 2022-07-02 10:23:03 +0900
+updated : 2022-07-02 11:27:55 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,6 +12,8 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## Learn Vim Script Hard Way
 
 미뤄왔던 lean vim script hard way 를 보기 시작했다. 
 
