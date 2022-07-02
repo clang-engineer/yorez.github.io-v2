@@ -71,6 +71,7 @@ regenerate: true
 * [[study/hot-tcpip]]
 * [[study/hot-data-structure]]
 * [study learn vim script hard way](study/learn-vim-script-hard-way)
+* [study taste like developer](study/taste-like-developer)
 
 ## [[information-security/index]]
 * [[information-security/ch01-system]]
