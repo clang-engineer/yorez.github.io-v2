@@ -71,6 +71,7 @@ regenerate: true
 * [[study/modoocode-c]]
 * [[study/hot-tcpip]]
 * [[study/hot-data-structure]]
+* [study learn vim script hard way](study/learn-vim-script-hard-way)
 
 ## [[information-security/index]]
 * [[information-security/ch01-system]]
