@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유용한 shell script 
 summary : 
 date    : 2021-10-13 12:57:35 +0900
-updated : 2022-01-27 10:34:57 +0900
+updated : 2022-07-05 08:35:53 +0900
 tags    : 
 toc     : true
 public  : true
@@ -67,4 +67,11 @@ done
 ```
 brew install rename
 rename 's/old/new/g' *
+```
+
+
+## file 목록 찾고 이동 시키기
+
+```sh
+find path_A -name "*AAA*" -exec mv {} path_B \;
 ```
