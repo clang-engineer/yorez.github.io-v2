@@ -107,6 +107,7 @@ regenerate: true
 * [[etc/setting-jupyterhub-offline]]
 * [[etc/on-my-zsh]]
 * [[etc/mac-md-to-pdf-convert]]
+* [etc dont worry](etc/dont-worry)
 
 ## [[window/index]]
 
