@@ -108,6 +108,7 @@ regenerate: true
 * [[etc/on-my-zsh]]
 * [[etc/mac-md-to-pdf-convert]]
 * [etc dont worry](etc/dont-worry)
+* [[etc/letsenc-to-keycrt]]
 
 ## [[window/index]]
 
