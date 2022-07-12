@@ -131,7 +131,7 @@ regenerate: true
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
-  
+* [javascript npm install err](javascript/npm-install-err)  
 ## [[chrome/index]]
 * [[chrome/useful-plugin]]
 
