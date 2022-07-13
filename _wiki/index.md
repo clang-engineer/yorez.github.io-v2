@@ -87,6 +87,7 @@ regenerate: true
 * [[computer-science/return-exit-diff]]
 
 ## [c lang index](c-lang/index)
+* [c lang size_t](c-lang/size_t)
 
 ## [[etc/index]]
 
