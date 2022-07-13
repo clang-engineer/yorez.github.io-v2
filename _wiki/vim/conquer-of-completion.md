@@ -3,7 +3,7 @@ layout  : wiki
 title   : CoC (Conquer of Completion)
 summary : 
 date    : 2022-07-13 16:15:41 +0900
-updated : 2022-07-13 16:29:01 +0900
+updated : 2022-07-13 16:36:14 +0900
 tags    : 
 toc     : true
 public  : true
@@ -38,9 +38,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 4. CoC 언어별 플러그인 설치
 ```sh
 :CocInstall coc-json coc-tsserver
-```
 
-```sh
 # 아래 명령어 안 되면 >> :CocCommand clangd.install
 :CocCommand coc-clangd
 ```
