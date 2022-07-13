@@ -86,6 +86,8 @@ regenerate: true
 * [[computer-science/computer-metaphor]]
 * [[computer-science/return-exit-diff]]
 
+## [c lang index](c-lang/index)
+
 ## [[etc/index]]
 
 * [[etc/stack-edit]]
