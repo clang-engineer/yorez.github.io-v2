@@ -14,6 +14,7 @@ regenerate: true
 * [[vim/shortcut]]
 * [[vim/change-encoding]]
 * [[vim/cheat-sheet]]
+* [vim neovim init setting](vim/neovim-init-setting);
 
 ## [[linux/index]]
 
