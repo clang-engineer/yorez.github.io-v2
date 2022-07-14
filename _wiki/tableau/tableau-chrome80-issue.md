@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : tableau issue
+title   : Tableau Chrome 80 issue
 summary : 
 date    : 2021-10-01 10:19:01 +0900
-updated : 2022-07-14 11:24:35 +0900
+updated : 2022-07-14 11:26:59 +0900
 tags    : tableau issue
 toc     : true
 public  : true
