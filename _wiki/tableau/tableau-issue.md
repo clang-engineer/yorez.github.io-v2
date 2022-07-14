@@ -3,7 +3,7 @@ layout  : wiki
 title   : tableau issue
 summary : 
 date    : 2021-10-01 10:19:01 +0900
-updated : 2022-07-14 11:24:05 +0900
+updated : 2022-07-14 11:24:35 +0900
 tags    : tableau issue
 toc     : true
 public  : true
@@ -23,7 +23,7 @@ latex   : false
 
 ## 원인? 
 
-- 크롬 80 버전부터 새로운 쿠키 정책이 적용되어 Cookie의 SameSite 속성의 기본값이 "None"에서 "Lax"로 변경됨
+- 크롬 80 버전부터 새로운 쿠키 정책이 적용되어 Cookie SameSite 속성의 기본값이 "None"에서 "Lax"로 변경됨
 - 위의 이유로 태블로 내장뷰와 태블로 서버 통신 과정에서 인증수단으로 사용했던 session 쿠키 전송에 문제가 생겼고, \
 인증 토큰의 부재로 iframe콘텐츠들이 로그인 화면으로 리다이렉트되는 현상이 발생하였다.
 
