@@ -35,6 +35,7 @@ regenerate: true
 * [[git/branch]]
 * [[git/reset]]
 * [[git/multi-account]]
+* [git multi config](git/multi-config)
 * [[git/stash]]
 * [[git/clean]]
 * [[git/revert]]
