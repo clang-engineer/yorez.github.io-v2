@@ -119,7 +119,7 @@ regenerate: true
 
 ## [[tableau/index]]
 * [[tableau/tableau-trusted-ticket]]
-* [[tableau/tableau-issue]]
+* [[tableau/tableau-chrome80-issue]]
 
 ## [[java/index]]
 * [[java/occupy-multiple-port]]
