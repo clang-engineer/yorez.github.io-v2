@@ -3,7 +3,7 @@ layout  : wiki
 title   : 디렉토리 별 gitconfig 설정하기
 summary : 
 date    : 2022-07-14 09:05:55 +0900
-updated : 2022-07-14 09:35:17 +0900
+updated : 2022-07-14 09:37:56 +0900
 tags    : 
 toc     : true
 public  : true
@@ -25,12 +25,10 @@ git config --global user.emal xxx@gmail.com
 ```
 
 ## 디렉터리 설정 추가
-
 - gitconfig 파일은 아래의 설정이 위의 설정을 덮음.
 - git directory 가 설정한 패턴과 일치하면, path 에 있는 파일을 include 하도록 추가
 
 ### 커스텀 설정파일 생성
-
 ~/workspace/company/company.inc
 ```sh
 [user]
@@ -50,6 +48,7 @@ git config --global user.emal xxx@gmail.com
 
 ## 확인
 - 하위 디렉토리를 이동하면서 설정이 제대로 됐는지 확인
+ 
 ```sh
 git config --get user.email
 ```
