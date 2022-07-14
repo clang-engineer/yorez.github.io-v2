@@ -3,7 +3,7 @@ layout  : wiki
 title   : tableau issue
 summary : 
 date    : 2021-10-01 10:19:01 +0900
-updated : 2022-07-14 11:16:52 +0900
+updated : 2022-07-14 11:22:07 +0900
 tags    : tableau issue
 toc     : true
 public  : true
@@ -54,7 +54,6 @@ latex   : false
 2. 태블로 서버에서 https를 활성화 시키면 쿠키에 'SameSite=none', 'secure' 옵션이 붙여서 전송.  \
 (* Tableau Server 2019.4.2, 2019.3.4, 2019.2.8, 2019.1.12, 2018.3.14, 2018.2.17 이상 버전으로 업그레이드 필요)
 
-> secure -> 웹브라우저와 웹서버가 https로 통신하는 경우만 웹브라우저가 쿠키를 서버로 전송하는 옵션 \
 > [태블로 대응 가이드]( https://kb.tableau.com/articles/issue/embedded-views-fail-to-load-after-updating-to-chrome-80?lang=ko-kr) \
 > [구글 SameSite 대응 가이드]( https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure?hl=ko) \
-> [생활코딩 - 쿠키옵션](https://opentutorials.org/course/3387/21744)
+> [생활코딩 - 쿠키옵션 Secure, HttpOnly](https://opentutorials.org/course/3387/21744)
