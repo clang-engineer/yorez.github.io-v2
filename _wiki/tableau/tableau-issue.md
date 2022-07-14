@@ -3,7 +3,7 @@ layout  : wiki
 title   : tableau issue
 summary : 
 date    : 2021-10-01 10:19:01 +0900
-updated : 2021-10-13 16:55:11 +0900
+updated : 2022-07-14 10:57:31 +0900
 tags    : tableau issue
 toc     : true
 public  : true
@@ -13,25 +13,50 @@ latex   : false
 * TOC
 {:toc}
 
-# Tableau Issue
+## 문제? 
 
-## Chrome 80 이상으로 업데이트한 후 내장된 뷰를 로드하지 못함
+- Chrome 80 이상으로 업데이트한 후 내장된 뷰를 로드하지 못함
 
-현상?  
+## 현상?  
 
-embedded 컨텐츠가 로그인 화면으로 보임. 
+- embedded 컨텐츠가 로그인 화면으로 보임. 
 
-원인? 
+## 원인? 
 
-크롬에서 보안이슈(csrf)를 이유로 80버전부터는 third party(웹서비스와 도메인이 다른 서버)에서 쿠키심는 걸 기본적으로 차단하는 정책을 적용했다 한다. \
-때문에, 태블로 내장뷰와 태블로 서버 통신 과정에서 인증수단으로 사용했던 session 쿠키 생성에 문제가 생겼고, \
+- 크롬 80 버전부터 새로운 쿠키 정책이 적용되어 Cookie의 SameSite 속성의 기본값이 "None"에서 "Lax"로 변경됨
+- 위의 이유로 태블로 내장뷰와 태블로 서버 통신 과정에서 인증수단으로 사용했던 session 쿠키 전송에 문제가 생겼고, \
 인증 토큰의 부재로 iframe콘텐츠들이 로그인 화면으로 리다이렉트되는 현상이 발생하였다.
 
-해결 ?
+## SameSite 속성에 대해 변경되는 정책
 
-쿠키에 'SameSite=none', 'secure'를 설정하면 third party에서 예외적으로 쿠키생성이 가능한 예외조항이 있었다. \
-때문에, thrid party(태블로서버)에서 쿠키생성시 해당 옵션을 적용한 쿠키를 생성하도록 정책이 변경되었다. \
-쿠키에 적용된 secure 속성은 https 를 통해만 정상 발송 되므로 embedded 뷰를 사용하던 기존 사이트들은 통신하는 태블로서버에 https을 적용함으로써 크롬 이슈를 해결할 수 있었다. 
+1. 쿠키를 구울 때 SameSite 옵션이 없는 경우 **Lax** 로 간주한다.
+2. SameSite=none 으로 사용하려면 secure옵션(https요청만 허용)을 필수로 한다.
+3. http와 https간의 연결은 cross-site로 간주한다.
+
+## SameSite 정책
+
+| 종류   | 접근정책                                                                          |
+|--------|-----------------------------------------------------------------------------------|
+| None   | 도메인 검증하지 않음. \                                                           |
+| ^      | A 사이트에서 B 사이트로 요청 전송 시 B 사이트의 쿠기가 붙어서 전송              |
+|--------|-----------------------------------------------------------------------------------|
+| Lax    | Strict 정책에 예외처리가 몇가지 추가된 정책. \                                    |
+|        | 예외> Get을 사용하는 요청 중 앵커태그. form의 get 메소드.                         |
+|--------|-----------------------------------------------------------------------------------|
+| Strict | SameSite검사를 강하게 제한하는 정책. \                                            |
+|        | 소스가 되는 도메인과 대상 도메인이 일치해야만(자사 도메인) 쿠키가 포함되어 전송 \ |
+|        | (O) www.google.com => www.google.com , dev.google.com, prod.google.com            |
+|        | (X) www.test.com => www.google.com                                                |
+    
+## 해결방법 ?
+
+1. 자사 도메인을 사용
+2. 태블로서버에서 https를 활성화 시키면 쿠키에 'SameSite=none', 'secure' 옵션이 붙여서 쿠키 전송. \
+(* Tableau Server 2019.4.2, 2019.3.4, 2019.2.8, 2019.1.12, 2018.3.14, 2018.2.17 이상 버전으로 업그레이드 필요)
+
+> secure -> 웹브라우저와 웹서버가 https로 통신하는 경우만 웹브라우저가 쿠키를 서버로 전송하는 옵션
+
 
 > https://kb.tableau.com/articles/issue/embedded-views-fail-to-load-after-updating-to-chrome-80?lang=ko-kr \
 > https://brocess.tistory.com/263
+> https://opentutorials.org/course/3387/21744
