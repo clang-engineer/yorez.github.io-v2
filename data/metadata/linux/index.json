@@ -1,1 +1,1 @@
-{"type":"wiki","title":"linux","summary":"","parent":"index","url":"/wiki/linux/index","updated":"2021-10-13 16:59:28 +0900","children":["linux/command","linux/confirm-memory-usage","linux/curl","linux/jobs","linux/nohup","linux/scp","linux/shell-script"]}
+{"type":"wiki","title":"linux","summary":"","parent":"index","url":"/wiki/linux/index","updated":"2021-10-13 16:59:28 +0900","children":["linux/command","linux/confirm-memory-usage","linux/curl","linux/jobs","linux/journalctl","linux/nohup","linux/scp","linux/shell-script","linux/systemd"]}
