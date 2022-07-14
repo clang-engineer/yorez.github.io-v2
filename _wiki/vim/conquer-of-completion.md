@@ -39,8 +39,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 ```txt
 :CocInstall coc-json coc-tsserver
 
-# 아래 명령어 안 되면 >> :CocCommand clangd.install
 :CocCommand coc-clangd
+# 위 명령어 정상 실행 안 되면 >> :CocCommand clangd.install
 ```
 
 > 기타 추가 설정법은 위의 저장소 README를 참조
