@@ -14,6 +14,8 @@ regenerate: true
 * [[vim/shortcut]]
 * [[vim/change-encoding]]
 * [[vim/cheat-sheet]]
+* [vim neovim init setting](vim/neovim-init-setting);
+* [vim conquer of completion](vim/conquer-of-completion)
 
 ## [[linux/index]]
 
@@ -33,6 +35,7 @@ regenerate: true
 * [[git/branch]]
 * [[git/reset]]
 * [[git/multi-account]]
+* [git multi config](git/multi-config)
 * [[git/stash]]
 * [[git/clean]]
 * [[git/revert]]
@@ -111,6 +114,7 @@ regenerate: true
 * [[etc/on-my-zsh]]
 * [[etc/mac-md-to-pdf-convert]]
 * [etc dont worry](etc/dont-worry)
+* [[etc/letsenc-to-keycrt]]
 
 ## [[window/index]]
 
@@ -118,7 +122,7 @@ regenerate: true
 
 ## [[tableau/index]]
 * [[tableau/tableau-trusted-ticket]]
-* [[tableau/tableau-issue]]
+* [[tableau/tableau-chrome80-issue]]
 
 ## [[java/index]]
 * [[java/occupy-multiple-port]]
@@ -133,7 +137,8 @@ regenerate: true
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
-  
+* [javascript npm install err](javascript/npm-install-err)  
+ 
 ## [[chrome/index]]
 * [[chrome/useful-plugin]]
 

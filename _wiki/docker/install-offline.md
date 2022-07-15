@@ -35,11 +35,11 @@ $ sudo cp docker/* /usr/bin
  
 ```sh
 $ sudo dockerd & 
-``` 
+```
 
 ## 5. 도커 실행 확인 
  
 ```
-$ sh sudo docker run hello-world
+$ sh sudo docker run hello-world
 ```
 
