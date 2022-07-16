@@ -16,6 +16,7 @@ regenerate: true
 * [[vim/cheat-sheet]]
 * [vim neovim init setting](vim/neovim-init-setting);
 * [vim conquer of completion](vim/conquer-of-completion)
+* [vim option](vim/option)
 
 ## [[linux/index]]
 
