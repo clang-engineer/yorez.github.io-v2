@@ -1,1 +1,1 @@
-{"type":"wiki","title":"vim","summary":"","parent":"index","url":"/wiki/vim/index","updated":"2021-10-13 16:58:33 +0900","children":["vim/change-encoding","vim/neovim-swap-error","vim/option","vim/plugin","vim/shortcut"]}
+{"type":"wiki","title":"vim","summary":"","parent":"index","url":"/wiki/vim/index","updated":"2021-10-13 16:58:33 +0900","children":["vim/change-encoding","vim/neovim-init-setting","vim/neovim-swap-error","vim/option","vim/plugin","vim/shortcut"]}

@@ -93,6 +93,7 @@ regenerate: true
 
 ## [c lang index](c-lang/index)
 * [c lang size_t](c-lang/size_t)
+* [c complile extension err](c-complile-extension-err)
 
 ## [[etc/index]]
 

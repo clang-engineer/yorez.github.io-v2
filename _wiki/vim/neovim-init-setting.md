@@ -3,11 +3,11 @@ layout  : wiki
 title   : neovim 초기 셋팅하기
 summary : 
 date    : 2022-07-13 15:03:23 +0900
-updated : 2022-07-13 15:17:49 +0900
+updated : 2022-07-17 23:15:55 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : [[vim/index]] ;
+parent  : [[vim/index]]
 latex   : false
 ---
 * TOC
