@@ -32,6 +32,7 @@ regenerate: true
 * [[linux/journalctl]]
 
 ## [[git/index]]
+* [git cheat sheet](git/cheat-sheet)
 * [[git/diff]]
 * [[git/branch]]
 * [[git/reset]]
