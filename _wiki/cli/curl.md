@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 서버에서 데이터 전송하기
-summary : 
+title   : curl
+summary : cli에서 요청을 전송하게 도와주는
 date    : 2022-01-07 16:26:32 +0900
-updated : 2022-01-07 16:52:42 +0900
+updated : 2022-07-19 13:59:02 +0900
 tags    : 
 toc     : true
 public  : true

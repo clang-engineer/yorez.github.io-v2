@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : job관리 - linux 프로세스 일시 중단 
-summary : 
+title   : jobs 
+summary : 프로세스를 관리하는 job의 개념 
 date    : 2021-10-14 13:38:06 +0900
-updated : 2021-10-14 14:13:16 +0900
+updated : 2022-07-19 13:59:49 +0900
 tags    : 
 toc     : true
 public  : true

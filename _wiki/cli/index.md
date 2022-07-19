@@ -1,9 +1,9 @@
 ---
 layout  : category
-title   : Cli 명령어 모음
+title   : cli 명령어 모음
 summary : 
 date    : 2022-07-19 12:54:56 +0900
-updated : 2022-07-19 13:44:14 +0900
+updated : 2022-07-19 13:55:46 +0900
 tags    : 
 toc     : true
 public  : true

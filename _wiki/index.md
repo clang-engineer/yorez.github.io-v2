@@ -20,7 +20,6 @@ regenerate: true
 
 ## [[linux/index]]
 
-* [[linux/jobs]]
 * [[linux/command]]
 * [[linux/shell-script]]
 * [[linux/confirm-cpu-usage]]
@@ -29,6 +28,7 @@ regenerate: true
 * [[linux/journalctl]]
 
 ## [[cli/index]]
+* [[cli/jobs]]
 * [[cli/autojump]]
 * [[cli/curl]]
 * [[cli/jobs]]

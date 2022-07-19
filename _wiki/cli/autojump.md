@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Terminal 위치 위치 이동을 편리하게 하는 Autojump 
-summary : 
+title   : autojump 
+summary : 위치 이동을 편리하게 해주는 autojump
 date    : 2022-07-19 09:10:09 +0900
-updated : 2022-07-19 10:11:52 +0900
+updated : 2022-07-19 13:58:24 +0900
 tags    : 
 toc     : true
 public  : true
