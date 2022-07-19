@@ -26,6 +26,7 @@ regenerate: true
 * [[linux/confirm-memory-usage]]
 * [[linux/systemd]]
 * [[linux/journalctl]]
+* [[linux/bashrc-profile]]
 
 ## [[cli/index]]
 * [[cli/jobs]]
