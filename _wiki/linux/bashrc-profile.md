@@ -3,7 +3,7 @@ layout  : wiki
 title   : /etc/profile, /etc/bashrc, ~/.bash_profile, ~/.bash_rc 
 summary : shell 설정 파일에 대해 정리
 date    : 2022-07-19 15:53:12 +0900
-updated : 2022-07-19 16:11:51 +0900
+updated : 2022-07-20 08:30:15 +0900
 tags    : 
 toc     : true
 public  : true
@@ -48,3 +48,14 @@ alias를 수정하거나 PATH를 변경할 때 사용되는 설정파일은 조�
 
 ## 2. ~/.bashrc
 - .bashrc 이 위치하는 홈 경로의 사용자가 shell 실행시 실행.
+
+# 사용처
+## .bash_profile
+- 환경변수 선언
+
+## .bashrc
+- 별칭
+- 쉘 함수
+- 명령 라인의 보완
+
+> https://linuxize.com/post/bashrc-vs-bash-profile/
