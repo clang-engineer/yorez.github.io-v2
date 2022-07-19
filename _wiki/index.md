@@ -14,31 +14,34 @@ regenerate: true
 * [[vim/shortcut]]
 * [[vim/change-encoding]]
 * [[vim/cheat-sheet]]
-* [vim neovim init setting](vim/neovim-init-setting);
-* [vim conquer of completion](vim/conquer-of-completion)
-* [vim option](vim/option)
+* [[vim/neovim-init-setting]];
+* [[vim/conquer-of-completion]]
+* [[vim/option]]
 
 ## [[linux/index]]
 
 * [[linux/jobs]]
 * [[linux/command]]
-* [[linux/nohup]]
 * [[linux/shell-script]]
-* [[linux/scp]]
-* [[linux/curl]]
 * [[linux/confirm-cpu-usage]]
 * [[linux/confirm-memory-usage]]
 * [[linux/systemd]]
 * [[linux/journalctl]]
-* [linux autojump](linux/autojump.md)
 
+## [[cli/index]]
+* [[cli/autojump]]
+* [[cli/curl]]
+* [[cli/jobs]]
+* [[cli/nohup]]
+* [[cli/scp]]
+ 
 ## [[git/index]]
-* [git cheat sheet](git/cheat-sheet)
+* [[git/cheat-sheet]]
 * [[git/diff]]
 * [[git/branch]]
 * [[git/reset]]
 * [[git/multi-account]]
-* [git multi config](git/multi-config)
+* [[git/multi-config]]
 * [[git/stash]]
 * [[git/clean]]
 * [[git/revert]]
@@ -46,7 +49,7 @@ regenerate: true
 * [[git/log]]
 * [[git/shortlog]]
 * [[git/remote]]
-* [git github githubusercontent](git/github-githubusercontent)
+* [[git/github-githubusercontent]]
 * [[git/etc]]
 
 ## [[data-structure/index]]
@@ -77,14 +80,13 @@ regenerate: true
 * [[study/modoocode-cpp]]
 * [[study/hot-tcpip]]
 * [[study/hot-data-structure]]
-* [study learn vim script hard way](study/learn-vim-script-hard-way)
-* [study taste like developer](study/taste-like-developer)
+* [[study/learn-vim-script-hard-way]]
+* [[study/taste-like-developer]]
 
 ## [[information-security/index]]
 * [[information-security/ch01-system]]
 * [[information-security/ch02-network]]
 * [[information-security/ch03-application]]
-
 
 ## [[algorithm/index]]
 * [[algorithm/greedy]]
@@ -93,9 +95,9 @@ regenerate: true
 * [[computer-science/computer-metaphor]]
 * [[computer-science/return-exit-diff]]
 
-## [c lang index](c-lang/index)
-* [c lang size_t](c-lang/size_t)
-* [c complile extension err](c-complile-extension-err)
+## [[c-lang/index]]
+* [[c-lang/size_t]]
+* [[c-lang/c-complile-extension-err]]
 
 ## [[etc/index]]
 
@@ -118,7 +120,7 @@ regenerate: true
 * [[etc/setting-jupyterhub-offline]]
 * [[etc/on-my-zsh]]
 * [[etc/mac-md-to-pdf-convert]]
-* [etc dont worry](etc/dont-worry)
+* [[etc/dont-worry]]
 * [[etc/letsenc-to-keycrt]]
 
 ## [[window/index]]
@@ -142,7 +144,7 @@ regenerate: true
 
 ## [[javascript/index]]
 * [[javascript/axios-collection-set-send]]
-* [javascript npm install err](javascript/npm-install-err)  
+* [[javascript/npm-install-err]]
  
 ## [[chrome/index]]
 * [[chrome/useful-plugin]]

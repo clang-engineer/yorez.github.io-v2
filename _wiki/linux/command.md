@@ -3,7 +3,7 @@ layout  : wiki
 title   : 명령어 실행 방법 종류
 summary : 
 date    : 2021-10-07 10:31:41 +0900
-updated : 2021-10-20 08:36:10 +0900
+updated : 2022-07-19 13:02:44 +0900
 tag     : linux command
 toc     : true
 public  : true
