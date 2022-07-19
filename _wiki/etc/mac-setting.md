@@ -3,7 +3,7 @@ layout  : wiki
 title   : 맥북 셋팅
 summary : 
 date    : 2022-02-05 16:24:30 +0900
-updated : 2022-07-19 11:34:15 +0900
+updated : 2022-07-19 11:59:24 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,8 +12,6 @@ latex   : false
 ---
 * TOC
 {:toc}
-
-> 출처: https://johngrib.github.io/wiki/migrate-to-new-macbook/
 
 # Brew로 기존에 사용하던 맥 라이브러리들 옮기기 
 
@@ -165,3 +163,5 @@ $ echo
 ## 세 손가락 드래그
 - 시스템 환경설정 - 손쉬운 사용 - 포인트 제어기 - 트랙패드 옵션
 - 드래그 활성화에서 세 손가락으로 드래그하기
+ 
+> 출처: https://johngrib.github.io/wiki/migrate-to-new-macbook/
