@@ -3,7 +3,7 @@ layout  : wiki
 title   : git remote
 summary : 
 date    : 2022-03-29 16:56:50 +0900
-updated : 2022-07-19 13:15:24 +0900
+updated : 2022-07-19 13:30:26 +0900
 tags    : 
 toc     : true
 public  : true
@@ -31,21 +31,17 @@ git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
 ```
 
 ## git remote set-url [주소]
-원격 저장소 주소 변경하기
+- 원격 저장소 주소 변경하기
 
 ## git remote -v
-원격 저장소 주소 확인하기
+- 원격 저장소 주소 확인하기
 
 ##  git 원격 브랜치 삭제하는 방법
-- 원격에서 삭제하고 싶은 타겟 브랜치 이름을 **feature/test**라고 가정
-### 방법1
 
 ```sh
 # 방법1. 직접 원격 브랜치를 삭제
 git push origin --delete feature/test
-```
 
-```sh
 # 방법2. 로컬 브랜치를 삭제하고 원격에 동기화
 git branch -d feature/test
 git push origin feature/test
