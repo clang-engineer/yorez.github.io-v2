@@ -46,6 +46,7 @@ regenerate: true
 * [[git/log]]
 * [[git/shortlog]]
 * [[git/remote]]
+* [git github githubusercontent](git/github-githubusercontent)
 * [[git/etc]]
 
 ## [[data-structure/index]]
