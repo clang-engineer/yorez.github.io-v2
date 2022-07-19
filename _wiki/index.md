@@ -125,7 +125,6 @@ regenerate: true
 * [[etc/on-my-zsh]]
 * [[etc/dont-worry]]
 * [[etc/letsenc-to-keycrt]]
-* [etc manage dotfiles](etc/manage-dotfiles)
 
 ## [[window/index]]
 
