@@ -30,6 +30,7 @@ regenerate: true
 * [[linux/confirm-memory-usage]]
 * [[linux/systemd]]
 * [[linux/journalctl]]
+* [linux autojump](linux/autojump.md)
 
 ## [[git/index]]
 * [git cheat sheet](git/cheat-sheet)
