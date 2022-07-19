@@ -3,7 +3,7 @@ layout  : wiki
 title   : autojump 
 summary : 위치 이동을 편리하게 해주는 autojump
 date    : 2022-07-19 09:10:09 +0900
-updated : 2022-07-19 13:58:24 +0900
+updated : 2022-07-19 14:09:15 +0900
 tags    : 
 toc     : true
 public  : true
@@ -50,26 +50,31 @@ $ echo '. /usr/share/autojump/autojump.sh' >> ~/.bashrc
 
 ## 사용법
 - help
+ 
 ```sh
 $ j --help
 ```
 
 - foo 키워드를 포함하는 디렉터리로 점프
+
 ```sh
 $ j foo
 ```
 
 - 현재 디렉터리의 자식 디렉터리로 점프
+ 
 ```sh
 $ jc bar
 ```
 
 - 위치의 파일 탐색기 열기 
+ 
 ```sh
 $ jo music
 ```
 
 - 다중 경로 지정
+ 
 ```sh
 30  /home/user/mail/inbox
 10  /home/user/work/index
@@ -78,11 +83,13 @@ $ j w in  # /home/user/work/index 로 이동
 ```
 
 - jump 가중치 확인
+ 
 ```sh
 $ j -s
 ```
 
 - 존재하지 않는 경로 삭제
+ 
 ```sh
 $ j --purge
 ```
