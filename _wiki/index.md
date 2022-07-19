@@ -100,8 +100,8 @@ regenerate: true
 * [[c-lang/c-complile-extension-err]]
 
 ## [[macos/index]]
-* [[etc/mac-setting]]
-* [[etc/mac-md-to-pdf-convert]]
+* [[macos/mac-setting]]
+* [[macos/mac-md-to-pdf-convert]]
 
 ## [[etc/index]]
 
