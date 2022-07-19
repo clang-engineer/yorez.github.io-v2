@@ -3,7 +3,7 @@ layout  : wiki
 title   : 맥북 셋팅
 summary : 
 date    : 2022-02-05 16:24:30 +0900
-updated : 2022-07-19 11:59:24 +0900
+updated : 2022-07-19 13:28:20 +0900
 tags    : 
 toc     : true
 public  : true
@@ -15,41 +15,51 @@ latex   : false
 
 # Brew로 기존에 사용하던 맥 라이브러리들 옮기기 
 
-1. 기존 사용하던 pc에서 Brewfile 생성
+## 1. 기존 사용하던 pc에서 Brewfile 생성
+
 ```sh
 $ brew install mac
 $ brew bundle dump
 ```
+
 - brew bundle dump의 결과 Brewfile이 생성됨 누락된 어플리케이션이 있다면 수동으로 설치
 (brew cask를 활용하여 gui 기반의 어플리케이션을 관리한다면 Brewfile에 추가됨)
 
-2. 신규pc에서 Homebrew 설치
+## 2. 신규pc에서 Homebrew 설치
+
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-3. 백업한 Brewfile 실행
+## 3. 백업한 Brewfile 실행
+
 - 백업 파일 다운로드
+
 ```sh
 $ curl -O https://raw.githubusercontent.com/yorez/dotfiles/master/Brewfile
 ```
 
 - Brewfile 다운받은 위치에서 brew bundle 실행
+ 
 ```sh
 brew bundle
 ```
 
+
 # git ssh 환경 설정
 
-1. sshkey 생성
+## 1. sshkey 생성
+
 ```sh
 ssh-keygen
 ```
 
-2. github에 공개키 등록
+## 2. github에 공개키 등록
+
 - 1.에서 생성한 공개키를 github settings - SSH and GPG keys - SSH keys에 등록
 
-3. local pc 개인키 등록 
+## 3. local pc 개인키 등록 
+
 - ~/.ssh/config 파일을 생성하고 다음과 값이 추가
  
 ```sh
@@ -65,7 +75,7 @@ user git
     identityfile ~/.ssh/id_rsa_planit-zero
 ```
 
-4. 연결 확인
+## 4. 연결 확인
 ```sh
 ssh -T github.com-yorez
 ssh -T github.com-planit-zero
@@ -73,12 +83,12 @@ ssh -T github.com-planit-zero
 
 # vim 환경 설정
 
-1. neovim download
+## 1. neovim download
 ```sh
 $ brew install neovim
 ```
 
-2. plugin manager 설치 
+## 2. plugin manager 설치 
  
 ```sh 
 # vundle 을 사용할 경우
@@ -89,7 +99,7 @@ $ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plu
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-3. plugin 설치
+## 3. plugin 설치
  
 ```sh
 # vim을 사용할 경우
@@ -115,13 +125,13 @@ vim 실행 >> :PlugInstall
 # tmux 설정
 
 # zsh 설정
-1. intall zsh
+## 1. intall zsh
 ```sh
 sudo apt-get update
 sudo apt-get intall zsh -y
 chsh -s /usr/bin/zsh # change default shell
 ```
-2. install on my zsh
+## 2. install on my zsh
 ```sh
 # Curl을 이용한 설치
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -129,8 +139,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # wget을 이용한 설치
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
-### zsh 플러그인 설정 
-1. Autojump
+## 3. zsh 플러그인 설정 
+
+### 1. Autojump
 ```sh
 $ brew install autojump
 
@@ -138,7 +149,7 @@ $ brew install autojump
 plugins=(get autojump)
 ```
 
-2. Auto Suggestions
+### 2. Auto Suggestions
 
 ```sh
 $ brew install zsh-autosuggestions  # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -148,7 +159,7 @@ $ echo
  >> ~/.zshrc
 ```
 
-3. Syntax Highlighting
+### 3. Syntax Highlighting
 
 ```sh
 $ brew install zsh-syntax-highlighting  # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
