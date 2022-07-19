@@ -99,6 +99,10 @@ regenerate: true
 * [[c-lang/size_t]]
 * [[c-lang/c-complile-extension-err]]
 
+## [[macos/index]]
+* [[etc/mac-setting]]
+* [[etc/mac-md-to-pdf-convert]]
+
 ## [[etc/index]]
 
 * [[etc/stack-edit]]
@@ -113,15 +117,14 @@ regenerate: true
 * [[etc/git-study-site]]
 * [[etc/three-beol-sik390]]
 * [[etc/can-not-find-npm-cli]]
-* [[etc/mac-setting]]
 * [[etc/excalidraw]]
 * [[etc/diagrams-net]]
 * [[etc/npm-install-err]]
 * [[etc/setting-jupyterhub-offline]]
 * [[etc/on-my-zsh]]
-* [[etc/mac-md-to-pdf-convert]]
 * [[etc/dont-worry]]
 * [[etc/letsenc-to-keycrt]]
+* [etc manage dotfiles](etc/manage-dotfiles)
 
 ## [[window/index]]
 
