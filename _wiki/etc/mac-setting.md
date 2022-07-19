@@ -3,7 +3,7 @@ layout  : wiki
 title   : 맥북 셋팅
 summary : 
 date    : 2022-02-05 16:24:30 +0900
-updated : 2022-06-12 03:31:21 +0900
+updated : 2022-07-19 10:20:34 +0900
 tags    : 
 toc     : true
 public  : true
@@ -92,18 +92,33 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # wget을 이용한 설치
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
-3. install zsh plugin
+### zsh 플러그인 설정 
+1. Autojump
 ```sh
-# zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+$ brew install autojump
 
-# zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+.zshrc
+plugins=(get autojump)
+```
 
-brew
+2. Auto Suggestions
 
-# autojump
-apt intall autojump
+```sh
+$ brew install zsh-autosuggestions  # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+$ echo 
+"source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+ >> ~/.zshrc
+```
+
+3. Syntax Highlighting
+
+```sh
+$ brew install zsh-syntax-highlighting  # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+$ echo 
+"source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+ >> ${HOME}/.zshrc
 ```
 
 ## 취향
