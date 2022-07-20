@@ -100,9 +100,9 @@ regenerate: true
 * [[c-lang/size_t]]
 * [[c-lang/c-complile-extension-err]]
 
-## [[macos/index]]
-* [[macos/mac-setting]]
-* [[macos/mac-md-to-pdf-convert]]
+## [[mac-os/index]]
+* [[mac-os/mac-setting]]
+* [[mac-os/mac-md-to-pdf-convert]]
 
 ## [[etc/index]]
 
