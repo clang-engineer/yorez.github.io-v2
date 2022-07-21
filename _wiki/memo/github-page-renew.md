@@ -3,7 +3,7 @@ layout  : wiki
 title   : github page renew 를 위한 정리
 summary : 
 date    : 2022-07-20 08:42:36 +0900
-updated : 2022-07-21 09:01:48 +0900
+updated : 2022-07-21 16:41:32 +0900
 tags    : 
 toc     : true
 public  : true
@@ -31,3 +31,7 @@ latex   : false
 - 불필요한 카테고리 페이지 노출
 - h1~h5 사이즈
 - table 병합
+
+
+## jekyll theme 선정
+- https://jekyll-themes.com/kasper/
