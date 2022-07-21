@@ -3,7 +3,7 @@ layout  : wiki
 title   : github page renew 를 위한 정리
 summary : 
 date    : 2022-07-20 08:42:36 +0900
-updated : 2022-07-21 08:58:16 +0900
+updated : 2022-07-21 09:01:48 +0900
 tags    : 
 toc     : true
 public  : true
@@ -12,6 +12,11 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+## 페이지 목록
+- 메인 (최신글)
+- 소개
+- cheat sheet
 
 ## 기능 정리
 - github 댓글 연동
@@ -25,4 +30,4 @@ latex   : false
 - 일반 링크가 삽입이 안됨
 - 불필요한 카테고리 페이지 노출
 - h1~h5 사이즈
-- table 병할
+- table 병합
