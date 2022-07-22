@@ -156,6 +156,7 @@ regenerate: true
 * [[css/global-variable]]
 
 ## [[cheat-sheet/index]]
+* [[cheat-sheet/link]]
 * [[cheat-sheet/tmux]]
 
 ## [[docker/index]]
