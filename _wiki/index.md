@@ -158,6 +158,7 @@ regenerate: true
 ## [[cheat-sheet/index]]
 * [[cheat-sheet/link]]
 * [[cheat-sheet/tmux]]
+* [[cheat-sheet/git]]
 
 ## [[docker/index]]
 * [[docker/docker-help]]
