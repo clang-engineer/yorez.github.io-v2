@@ -27,6 +27,7 @@ regenerate: true
 * [[linux/systemd]]
 * [[linux/journalctl]]
 * [[linux/bashrc-profile]]
+* [[linux/grep]]
 
 ## [[cli/index]]
 * [[cli/jobs]]
