@@ -3,7 +3,7 @@ layout  : wiki
 title   : tmux cheat sheet
 summary : 
 date    : 2021-11-30 15:56:19 +0900
-updated : 2022-06-19 01:27:43 +0900
+updated : 2022-07-26 10:39:16 +0900
 tags    : 
 toc     : true
 public  : true
@@ -60,6 +60,14 @@ tmux kill-session -t sessionname
 - <ctrl+b> + & : kill window
 - <ctrl+b> + w : list windows
 - <ctrl+b> + z : toggle pane zoom
+
+## merge two window
+```sh
+// ctrl + b + : 로 tmux 명령 입력창 활성화
+// This will move the 2nd window as a pane to the 1st window. The opposite command is break-pane
+// tmux join-pane [-bdhv] [-l size | -p percentage] [-s src-pane] [-t dst-pane]
+join-pane -s 2 -t 1 
+```
 
 # tmux panes
 - 화면을 여러개로 나눠쓸 때 사용하는 개념
